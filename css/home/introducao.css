@@ -1,7 +1,7 @@
 .introducao {
   display: grid;
   place-items: center;
-  background: url("/img/socios/juntos.svg") center center no-repeat;
+  background: url("../../img/socios/juntos.svg") center center no-repeat;
   background-size: cover;
   padding: 150px 0;
   text-align: center;
