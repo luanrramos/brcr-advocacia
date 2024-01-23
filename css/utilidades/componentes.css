@@ -1,6 +1,13 @@
+a {
+  list-style: none;
+}
 .botao {
   color: var(--cor-p5);
-  display: inline-block;
+  display: flex;
+  max-width: 250px;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
   padding: 16px 32px;
   text-transform: uppercase;
   font-family: Poppins;
@@ -80,9 +87,20 @@
   color: var(--cor-0);
 }
 
-@media (max-width: 800px) {
-  .botao a {
+@media (max-width: 1000px) {
+  .botao {
+    color: var(--cor-p5);
+    display: flex;
+    max-width: 250px;
+    align-items: center;
+    gap: 1rem;
+    padding: 4px 16px;
+  }
+  .botao span {
     margin-bottom: 0px;
-    font-size: 16px;
+    font-size: 1rem;
+  }
+  .botao img {
+    max-width: 1.25rem;
   }
 }

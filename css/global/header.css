@@ -1,7 +1,4 @@
-.header-bg {
-  box-shadow: 0px 3px 10px #464646;
-}
-.header-container {
+.header {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -36,6 +33,11 @@
 }
 .mobile-menu {
   color: var(--azul-escuro);
+  text-transform: uppercase;
+}
+.mobile-menu li {
+  border: 1px solid var(--cinza-azulado);
+  border-radius: 4px;
 }
 .mobile-menu a:hover {
   color: var(--amarelo);
@@ -81,7 +83,11 @@
 .mobile-menu {
   display: none;
 }
-
+@media (max-width: 800px) {
+  .header a img {
+    max-width: 60%;
+  }
+}
 @media screen and (max-width: 1200px) {
   .nav-bar {
     padding: 1.5rem 4rem;
