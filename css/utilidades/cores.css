@@ -13,16 +13,16 @@
   --cor-11: #111111;
   --cor-12: #000000;
 
-  --cor-p1: #ffbb00;
+  --cor-p1: rgba(236, 208, 135, 1);
   --cor-p2: #e4a30b;
   --cor-p3: #a66f00;
   --cor-p4: #664400;
   --cor-p5: #332200;
 
-  --azul-escuro: #073050;
+  --azul-escuro: rgba(7, 48, 80, 1);
   --amarelo: #ecd087;
-  --cinza-escuro: #353544;
-  --cinza-azulado: #bfc6c9;
+  --cinza-escuro: rgba(191, 198, 201, 0.8);
+  --cinza-azulado: rgba(191, 198, 201, 1);
   --background: #f2f2f2;
 }
 

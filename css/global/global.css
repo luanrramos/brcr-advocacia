@@ -26,6 +26,7 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+  list-style: none;
 }
 
 img {
@@ -38,6 +39,6 @@ img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-img[src$=".jpg"] {
+img[src$=".png"] {
   border-radius: 4px;
 }

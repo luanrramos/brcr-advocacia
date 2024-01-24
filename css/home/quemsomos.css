@@ -11,7 +11,7 @@ body {
 .quemsomos h2 {
   display: inline-block;
   position: relative;
-  margin: 120px;
+  margin: 80px;
 }
 
 .quemsomos h2::before {
@@ -34,10 +34,16 @@ body {
 }
 
 .quemsomos-conteudo {
+  text-align: left;
   display: grid;
-  grid-template-columns: 2fr 3fr;
-  gap: 20px;
+  grid-template-columns: 1fr 1.5fr;
   align-items: center;
+  align-content: center;
+  gap: 24px;
+}
+
+.quemsomos-conteudo h3 {
+  padding-bottom: 40px;
 }
 .quemsomos-conteudo img {
   width: 100%;
@@ -46,8 +52,17 @@ body {
   margin-top: 30px;
   grid-column: 1;
 }
-
+@media (max-width: 1200px) {
+  .quemsomos-conteudo {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .quemsomos-conteudo h3 {
+    padding-bottom: 0px;
+  }
+}
 @media (max-width: 800px) {
+  
   .quemsomos h2 {
     font-size: 3rem;
     margin: 60px;
