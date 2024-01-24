@@ -6,7 +6,9 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
+.header img {
+  max-width: 70%;
+}
 .nav-list a {
   display: inline-block;
   position: relative;

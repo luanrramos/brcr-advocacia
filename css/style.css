@@ -4,6 +4,9 @@
 /* Header */
 @import "global/header.css";
 
+/* Quem Somos */
+@import "home/quemsomos.css";
+
 /* Home */
 @import "home/introducao.css";
 
