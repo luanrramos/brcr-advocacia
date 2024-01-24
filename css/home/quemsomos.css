@@ -1,6 +1,3 @@
-body {
-  height: 2000px;
-}
 .quemsomos-bg {
   background-color: var(--cinza-azulado);
 }
@@ -55,14 +52,16 @@ body {
 @media (max-width: 1200px) {
   .quemsomos-conteudo {
     grid-template-columns: 1fr;
+    place-items: center;
     gap: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
   }
-  .quemsomos-conteudo h3 {
-    padding-bottom: 0px;
+  .quemsomos img {
+    max-width: 70%;
   }
 }
 @media (max-width: 800px) {
-  
   .quemsomos h2 {
     font-size: 3rem;
     margin: 60px;

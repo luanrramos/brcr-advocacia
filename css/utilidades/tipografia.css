@@ -6,7 +6,7 @@
   line-height: normal;
 }
 .font-1-xs {
-  font: 400 0.75rem/1.35 "Poppins", sans-serif;
+  font: 400 0.9rem/1.35 "Poppins", sans-serif;
 }
 
 .font-2-xs {
@@ -141,3 +141,4 @@
     font-size: 0.75rem;
   }
 }
+

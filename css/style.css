@@ -4,11 +4,10 @@
 /* Header */
 @import "global/header.css";
 
-/* Quem Somos */
-@import "home/quemsomos.css";
-
 /* Home */
 @import "home/introducao.css";
+@import "home/quemsomos.css";
+@import "home/areas_atuacao.css";
 
 /* Utilidades */
 @import "./utilidades/componentes.css";
