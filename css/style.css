@@ -6,10 +6,16 @@
 
 /* Home */
 @import "home/introducao.css";
-@import "home/quemsomos.css";
-@import "home/areas_atuacao.css";
+@import "home/quem-somos.css";
+@import "home/areas-de-atuacao.css";
+@import "home/nosso-time.css";
+@import "home/nossos-escritorios.css";
+@import "home/nossos-artigos.css";
 
 /* Utilidades */
 @import "./utilidades/componentes.css";
 @import "./utilidades/cores.css";
 @import "./utilidades/tipografia.css";
+
+/* Footer */
+@import "global/footer.css";

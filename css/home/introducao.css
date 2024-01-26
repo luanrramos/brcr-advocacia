@@ -1,7 +1,7 @@
 .introducao {
   display: grid;
   place-items: center;
-  background: url("../../img/socios/juntos.svg") center center no-repeat;
+  background: url("../../img/home/socios-introducao.jpg") top center no-repeat;
   background-size: cover;
   padding: 150px 0;
   text-align: center;
@@ -35,6 +35,7 @@
   text-transform: uppercase;
   max-width: 100%;
 }
+
 @media (max-width: 1200px) {
   .introducao {
     padding: 60px 0;

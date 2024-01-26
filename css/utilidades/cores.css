@@ -23,6 +23,7 @@
   --amarelo: #ecd087;
   --cinza-escuro: rgba(191, 198, 201, 0.8);
   --cinza-azulado: rgba(191, 198, 201, 1);
+  --azul-claro: rgb(82, 124, 138);
   --background: #f2f2f2;
 }
 
@@ -96,6 +97,9 @@
 
 .cor-cinza-azulado {
   color: var(--cinza-azulado);
+}
+.cor-azul-claro {
+  color: var(--azul-claro);
 }
 
 .cor-background {
