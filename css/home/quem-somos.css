@@ -1,5 +1,6 @@
 .quemsomos-bg {
   background-color: rgba(219, 211, 172, 0.5);
+  padding: 100px 0;
 }
 .quemsomos {
   text-align: center;
@@ -8,7 +9,7 @@
 .quemsomos h2 {
   display: inline-block;
   position: relative;
-  margin: 80px;
+  margin-bottom: 60px;
 }
 
 .quemsomos h2::before {
@@ -62,9 +63,12 @@
   }
 }
 @media (max-width: 800px) {
+  .quemsomos-bg {
+    background-color: rgba(219, 211, 172, 0.5);
+    padding: 60px 0;
+  }
   .quemsomos h2 {
     font-size: 3rem;
-    margin: 60px;
   }
   .quemsomos-conteudo p {
     margin-top: 0px;
@@ -75,7 +79,7 @@
 @media (max-width: 600px) {
   .quemsomos h2 {
     font-size: 2rem;
-    margin: 40px;
+    margin-bottom: 40px;
   }
 
   .quemsomos-conteudo img {

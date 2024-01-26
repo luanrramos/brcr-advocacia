@@ -1,6 +1,13 @@
 footer {
   background-color: var(--cor-0);
 }
+footer img {
+  /* Removendo sombras */
+  fill: rgba(0, 0, 0, 0);
+  stroke-width: 0px;
+  stroke: white;
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
+}
 .footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -49,6 +56,7 @@ footer {
 }
 #footer-contato-redes {
   display: flex;
+  align-items: center;
   flex-direction: row;
   gap: 1rem;
 }
@@ -65,6 +73,8 @@ footer {
   display: flex;
   justify-content: space-around;
   text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 @media (max-width: 1000px) {

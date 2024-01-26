@@ -1,9 +1,9 @@
 .nossos-artigos {
   display: grid;
-  margin-top: 100px;
+  padding: 80px 0;
 }
 .nossos-artigos h2 {
-  display: inline;
+  display: inline-block;
   margin: 0 auto;
   position: relative;
 }
@@ -25,19 +25,18 @@
   background-color: var(--amarelo);
 }
 .nossos-artigos-carrossel li {
-  margin-top: 100px;
   position: relative;
   transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
 .nossos-artigos-carrossel ul {
   display: flex;
-  gap: 30px;
+  gap: 3rem;
   /* justify-content: center; */
   position: relative;
   overflow-x: auto;
   overflow-y: hidden;
-  padding: 60px 60px;
+  padding: 60px 30px;
 }
 
 .nossos-artigos-carrossel img {
@@ -88,6 +87,6 @@
 
 @media (max-width: 800px) {
   .nossos-artigos-carrossel ul {
-    padding: 20px 20px;
+    padding-right: 40px;
   }
 }

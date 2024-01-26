@@ -1,7 +1,7 @@
 .areas-atuacao-bg {
   display: grid;
   place-items: center;
-  background: url("/img/home/estatua.png") no-repeat;
+  background: url("../../img/home/estatua.png") no-repeat;
   background-size: cover;
   padding: 100px 0;
   position: relative;
@@ -55,7 +55,7 @@
 .areas-atuacao h2 {
   display: inline-block;
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .areas-atuacao h2::before {

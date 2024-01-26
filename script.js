@@ -1,10 +1,5 @@
-function menuShow() {
-  let menuMobile = document.querySelector(".mobile-menu");
-  if (menuMobile.classList.contains("open")) {
-    menuMobile.classList.remove("open");
-    document.querySelector(".icon").src = "img/icones/menu_white_36dp.svg";
-  } else {
-    menuMobile.classList.add("open");
-    document.querySelector(".icon").src = "img/icones/close_white_36dp.svg";
-  }
+
+function show() {
+  document.querySelector(".hamburger").classList.toggle("open");
+  document.querySelector(".navigation").classList.toggle("active");
 }
