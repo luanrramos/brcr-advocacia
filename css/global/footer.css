@@ -59,7 +59,7 @@ footer {
 }
 .footer-mapa img {
   max-width: 320px;
-  border-radius: 200px;
+  border-radius: 10px;
 }
 .footer-copy {
   display: flex;
