@@ -1,5 +1,7 @@
 .quemsomos-bg {
   padding: 100px 0;
+  background: url(../../img/decoracoes/top-right.svg) no-repeat top 200px right
+    300px;
 }
 .quemsomos {
   text-align: center;
@@ -46,12 +48,15 @@
   grid-column: 2;
   grid-row: 1 / 3;
   margin-bottom: 60px;
-  background: url(../../img/decoracoes/top-right.svg) no-repeat top right;
 }
 .quemsomos-conteudo p {
   grid-column: 1;
 }
 @media (max-width: 1200px) {
+  .quemsomos-bg {
+    padding: 100px 0;
+    background-image: none;
+  }
   .quemsomos-conteudo {
     grid-template-columns: 1fr;
     place-items: center;
