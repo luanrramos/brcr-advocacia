@@ -68,13 +68,6 @@
   font-weight: 300;
   line-height: normal;
 }
-.poppins-18 {
-  font: 400 1.125rem/1.5 "Poppins", sans-serif;
-}
-
-.poppins-40 {
-  font: 400 1.125rem/1.5 "Poppins", sans-serif;
-}
 
 @media (max-width: 1200px) {
   .font-1-xxl {

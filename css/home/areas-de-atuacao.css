@@ -37,21 +37,24 @@
   padding: 30px;
   gap: 1.5rem;
   position: relative;
-  border: 2px solid white;
   align-items: center;
+  transition: 0.7s;
 }
 .areas-atuacao li:after {
   position: absolute;
 }
 
 .areas-atuacao li:hover {
-  transition: 0.3s;
-  border: 2px solid var(--azul-escuro);
+  transform: scale(1.1);
 }
-.areas-atuacao li p {
+.areas-atuacao li p,
+.areas-atuacao li a {
   grid-column: 1/3;
 }
-
+.areas-atuacao li a {
+  max-width: 150px;
+  justify-self: end;
+}
 .areas-atuacao h2 {
   display: inline-block;
   position: relative;
@@ -102,6 +105,9 @@
   .areas-atuacao h2 {
     font-size: 2rem;
     margin: 20px;
+  }
+  .areas-atuacao li:hover {
+    transform: scale(1);
   }
 }
 
