@@ -1,7 +1,8 @@
 .nossos-escritorios-bg {
-  background: rgba(219, 211, 172, 0.95);
   backdrop-filter: blur(6.699999809265137px);
   padding: 100px 0;
+  background: rgba(219, 211, 172, 0.95)
+    url(../../img/decoracoes/bottom-right-p.svg) no-repeat top 100px right 200px;
 }
 
 .nossos-escritorios-bg h2 {
@@ -47,6 +48,10 @@
   grid-row: 3;
 }
 @media (max-width: 1000px) {
+  .nossos-escritorios-bg {
+    background-image: none;
+  }
+
   .nossos-escritorios {
     grid-template-columns: 1fr;
     justify-items: center;

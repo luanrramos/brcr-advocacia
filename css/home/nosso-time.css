@@ -1,6 +1,8 @@
 .nosso-time {
   text-align: center;
   padding: 80px 0;
+  background: url(../../img/decoracoes/top-left-p.svg) no-repeat top 100px left
+    100px;
 }
 .nosso-time h2 {
   display: inline-block;
@@ -92,6 +94,7 @@
 @media (max-width: 800px) {
   .nosso-time {
     padding: 60px 0;
+    background: none;
   }
   .nosso-time h2 {
     font-size: 3rem;

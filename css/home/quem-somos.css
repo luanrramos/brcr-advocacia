@@ -3,6 +3,9 @@
 }
 .quemsomos {
   text-align: center;
+  background: url(../../img/decoracoes/bottom-left.svg) no-repeat bottom left
+    1rem;
+
   position: relative;
 }
 .quemsomos h2 {
@@ -43,6 +46,7 @@
   grid-column: 2;
   grid-row: 1 / 3;
   margin-bottom: 60px;
+  background: url(../../img/decoracoes/top-right.svg) no-repeat top right;
 }
 .quemsomos-conteudo p {
   grid-column: 1;
@@ -63,8 +67,10 @@
 }
 @media (max-width: 800px) {
   .quemsomos-bg {
-    background-color: rgba(219, 211, 172, 0.5);
     padding: 60px 0;
+  }
+  .quemsomos-conteudo img {
+    background-image: none;
   }
   .quemsomos h2 {
     font-size: 3rem;

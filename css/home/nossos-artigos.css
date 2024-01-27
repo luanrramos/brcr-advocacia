@@ -1,6 +1,8 @@
 .nossos-artigos {
   display: grid;
   padding: 80px 0;
+  background: url(../../img/decoracoes/top-right.svg) no-repeat top 100px right
+    100px;
 }
 .nossos-artigos h2 {
   display: inline-block;
@@ -73,6 +75,9 @@
 }
 
 @media (max-width: 800px) {
+  .nossos-artigos {
+    background-image: none;
+  }
   .nossos-artigos-carrossel ul {
     padding-right: 40px;
   }
