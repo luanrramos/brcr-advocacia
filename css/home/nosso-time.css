@@ -42,6 +42,7 @@
   position: relative;
   transition: transform 0.5s ease, box-shadow 0.5s ease;
   margin: 0 auto;
+  background-image: url(../../img/icones/mostrar-mais-botao.png);
 }
 .nosso-time-carrossel-img span {
   display: block;
@@ -70,16 +71,10 @@
   position: relative;
 }
 
-#nosso-time-descricao1,
-#nosso-time-descricao2,
-#nosso-time-descricao3,
-#nosso-time-descricao4 {
+#nosso-time-descricao {
   display: none;
 }
-.nosso-time-carrossel-img:hover #nosso-time-descricao1,
-.nosso-time-carrossel-img:hover #nosso-time-descricao2,
-.nosso-time-carrossel-img:hover #nosso-time-descricao3,
-.nosso-time-carrossel-img:hover #nosso-time-descricao4 {
+.nosso-time-carrossel-img:hover #nosso-time-descricao {
   display: block;
   width: 250px;
   z-index: 1;
@@ -87,9 +82,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #fff; /* Cor do texto */
-  font-size: 1rem; /* Tamanho da fonte */
-  /* Cor de fundo do texto (preto com opacidade 70%) */
 }
 @media (max-width: 800px) {
   .nosso-time {
@@ -97,7 +89,6 @@
     background: none;
   }
   .nosso-time h2 {
-    font-size: 3rem;
     margin-bottom: 20px;
   }
 }
@@ -107,7 +98,6 @@
     padding: 60px 0;
   }
   .nosso-time h2 {
-    font-size: 2rem;
     margin-bottom: 0px;
   }
 }

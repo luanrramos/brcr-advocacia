@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,20 +16,21 @@
   <header class="header-bg">
     <div class="header container nav-bar">
       <a href="./">
-        <img class="img" src="img/logos/logo-header.png" alt="Logo BRCR">
+        <img src="img/logos/logomarca-header.png" alt="Logo BRCR">
       </a>
       <div aria-label="primária" class="nav-list">
         <ul>
-          <li class="nav-item"><a href="#home" class="nav-link">Página Inicial</a></li>
-          <li class="nav-item"><a href="#quem-somos" class="nav-link">Quem somos</a></li>
-          <li class="nav-item"><a href="#areas-de-atuacao" class="nav-link">Áreas de Atuação</a></li>
-          <li class="nav-item"><a href="#escritorios" class="nav-link">Nossos Escritórios</a></li>
-          <li class="nav-item"><a href="#artigos" class="nav-link">Artigos</a></li>
-          <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+          <li class="nav-item font-1-s"><a href="#home">Página Inicial</a></li>
+          <li class="nav-item font-1-s"><a href="#quem-somos">Quem somos</a></li>
+          <li class="nav-item font-1-s"><a href="#areas-de-atuacao">Áreas de Atuação</a></li>
+          <li class="nav-item font-1-s"><a href="#escritorios">Nossos Escritórios</a></li>
+          <li class="nav-item font-1-s"><a href="#artigos">Artigos</a></li>
+          <li class="nav-item font-1-s"><a href="#contato">Contato</a></li>
         </ul>
       </div>
       <div class="navigation">
         <button class="hamburger" onclick="show()">
+          <div id="bar0" class="bar"></div>
           <div id="bar1" class="bar"></div>
           <div id="bar2" class="bar"></div>
           <div id="bar3" class="bar"></div>
@@ -37,13 +38,15 @@
 
         <nav>
           <ul>
-            <li><a class="font-1-s cor-p1" href="./">Página Inicial</a></li>
-            <li><a class="font-1-s" href="#quem-somos">Quem somos</a></li>
+            <li><a class="font-2-s cor-p1" href="./">Página Inicial</a></li>
+            <li><a class="font-2-s" href="#quem-somos">Quem somos</a></li>
             <li><a class="font-2-s" href="#areas-de-atuacao">Áreas de Atuação</a></li>
             <li><a class="font-2-s" href="#escritorios">Nossos Escritórios</a></li>
             <li><a class="font-2-s" href="#artigos">Artigos</a></li>
             <li><a class="font-2-s" href="#contato">Contato</a></li>
           </ul>
+          <a class="botao font-1-xs" href="#termos-e-condicoes">Políticas de Privacidade</a>
+
         </nav>
 
       </div>
@@ -68,7 +71,7 @@
           Sociedade de Advogados<span class="cor-p1">.</span></h3>
         <p class="font-1-s">Um escritório que alia tradição e inovação para fornecer soluções jurídicas excepcionais. Fundado com o compromisso de oferecer serviços jurídicos de excelência, nosso escritório tem uma longa história de sucesso e dedicação ao atendimento de nossos clientes.</p>
 
-        <img src="img/socios/quemsomos.png" alt="Sócios juntos">
+        <img src="img/socios/nosso-time.jpg" alt="Sócios juntos">
       </div>
     </div>
   </article>
@@ -134,33 +137,33 @@
     <ul class="nosso-time-carrossel">
       <li class="nosso-time-carrossel-img">
         <img src="./img/socios/ribeiro.jpg" alt="Imagem 1" class="imagem">
-        <div id="nosso-time-descricao1">
+        <div id="nosso-time-descricao">
           <h4 class="font-1-l cor-p2">Mayra Ribeiro</h4>
-          <span class="font-2-l">Advogada</span>
+          <span class="font-2-l cor-0">Advogada</span>
           <p class="font-2-xs cor-cinza-escuro">Graduada em Direito pela Unifacisa. Atuante no Direito Previdenciário, Ribeiro é uma profissional que entende perfeitamente que no Direito Previdenciário, um erro pode causar a perda de benefícios de forma definitiva. Seu diferencial é a qualidade e a dedicação para a entrega de resultados.</p>
         </div>
       </li>
       <li class="nosso-time-carrossel-img">
         <img src="./img/socios/ramos.jpg" alt="Imagem 1" class="imagem">
-        <div id="nosso-time-descricao2">
+        <div id="nosso-time-descricao">
           <h4 class="font-1-l cor-p2">Felipe Ramos</span></h4>
-          <span class="font-2-l">Advogado</span>
+          <span class="font-2-l cor-0">Advogado</span>
           <p class="font-2-xs cor-cinza-escuro">Advogado apaixonado pela justiça. Graduado em Direito pela Unifacisa. Especialista em Direito Civil. Comprometido, ético e dedicado aos direitos dos clientes. Experiência sólida e atualizado com as últimas mudanças legais. Representação legal de qualidade e confiança.</p>
         </div>
       </li>
       <li class="nosso-time-carrossel-img">
         <img src="./img/socios/batista.jpg" alt="Imagem 1" class="imagem">
-        <div id="nosso-time-descricao3">
+        <div id="nosso-time-descricao">
           <h4 class="font-1-l cor-p2">Francian Batista</h4>
-          <span class="font-2-l">Advogado</span>
+          <span class="font-2-l cor-0">Advogado</span>
           <p class="font-2-xs cor-cinza-escuro">Pós-graduando em Direito do Trabalho e Direito Processual do Trabalho. Pesquisador no Grupo de Extensão Socialização em Propriedade Intelectual - GESPI. Advogado militante nas áreas do Direito do Trabalho, Direito Macário e Direito do Consumidor. Sócio fundador do BRCR Sociedade de Advogados.</p>
         </div>
       </li>
       <li class="nosso-time-carrossel-img">
         <img src="./img/socios/camara.jpg" alt="Imagem 1" class="imagem">
-        <div id="nosso-time-descricao4">
+        <div id="nosso-time-descricao">
           <h4 class="font-1-l cor-p2">Thiago Câmara</h4>
-          <span class="font-2-l">Advogado</span>
+          <span class="font-2-l cor-0">Advogado</span>
           <p class="font-2-xs cor-cinza-escuro">Advogado Graduado em Direito pela Unifacisa. Com foco na expertise em leis trabalhistas e uma abordagem humanizada centrada no cliente, sua missão é garantir que seus direitos sejam respeitados e que você tenha uma jornada de trabalho justa e equitativa.</p>
         </div>
 

@@ -91,7 +91,6 @@
   .nossos-escritorios-bg h2 {
     display: grid;
     place-self: center;
-    font-size: 2rem;
     margin-bottom: 60px;
   }
   .nossos-escritorios-bg h2::before {

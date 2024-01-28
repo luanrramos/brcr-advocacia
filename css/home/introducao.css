@@ -19,7 +19,7 @@
 }
 
 .introducao-conteudo {
-  z-index: 10;
+  z-index: 1;
   display: grid;
   place-items: center;
   margin-top: 100px;
@@ -60,6 +60,5 @@
   .introducao-conteudo a {
     margin-top: 0px;
     margin-bottom: 40px;
-    font-size: 0.2rem;
   }
 }

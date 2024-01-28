@@ -108,6 +108,9 @@
   .font-1-s {
     font: 400 1rem/1.5 "Poppins", sans-serif;
   }
+  .font-3-xxl {
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 600px) {
@@ -134,6 +137,6 @@
     font-size: 0.75rem;
   }
   .font-1-s {
-    font-size: 1rem;
+    font-size: 0.875rem;
   }
 }

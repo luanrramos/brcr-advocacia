@@ -38,7 +38,6 @@
   gap: 1.5rem;
   position: relative;
   align-items: center;
-  transition: 0.7s;
 }
 .areas-atuacao li:after {
   position: absolute;
@@ -97,26 +96,19 @@
     display: none;
   }
   .areas-atuacao-bg {
-    padding: 60px 0;
+    padding-top: 60px;
   }
 }
 
 @media (max-width: 600px) {
   .areas-atuacao h2 {
-    font-size: 2rem;
-    margin: 20px;
+    margin-bottom: 0px;
   }
   .areas-atuacao li:hover {
     transform: scale(1);
   }
 }
 
-@media (max-width: 400px) {
-  .areas-atuacao h2 {
-    font-size: 1.8rem;
-    margin: 40px;
-  }
-}
 @media (max-width: 370px) {
   .areas-atuacao h2 {
     text-decoration: underline;
