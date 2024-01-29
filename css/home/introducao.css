@@ -1,7 +1,7 @@
 .introducao {
   display: grid;
   place-items: center;
-  background: url("../../img/home/socios-introducao-new.jpg") top center
+  background: url("../../img/home/socios-introducao-min.jpg") top center
     no-repeat;
   background-size: cover;
   padding: 150px 0;
