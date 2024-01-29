@@ -44,6 +44,7 @@
 }
 
 .areas-atuacao li:hover {
+  transition: 0.3s;
   transform: scale(1.1);
 }
 .areas-atuacao li p,
@@ -101,8 +102,8 @@
 }
 
 @media (max-width: 600px) {
-  .areas-atuacao h2 {
-    margin-bottom: 0px;
+  .areas-atuacao-bg {
+    background-size: contain;
   }
   .areas-atuacao li:hover {
     transform: scale(1);

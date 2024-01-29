@@ -25,6 +25,7 @@
   background-color: var(--background);
   transition: 0.5s;
   display: none;
+  border-radius: 5px;
 }
 .navigation nav {
   position: absolute;
@@ -34,7 +35,7 @@
 }
 .navigation nav > a {
   position: relative;
-  bottom: -250px;
+  bottom: -370px;
 }
 
 .navigation ul li {

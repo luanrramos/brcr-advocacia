@@ -15,7 +15,7 @@
   border-radius: 5px;
   background: var(
     --gradiente,
-    linear-gradient(var(--cor-p1), rgba(236, 208, 120, 1))
+    linear-gradient(var(--cor-p5), rgba(194, 165, 92, 0.7))
   );
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
 }
@@ -23,7 +23,7 @@
 .botao:hover {
   background: var(
     --gradiente,
-    linear-gradient(var(--cor-p1), rgba(236, 208, 135, 0.5))
+    linear-gradient(var(--cor-p1), rgba(194, 165, 92, 0.5))
   );
 }
 
@@ -47,6 +47,7 @@
 .botao.seta {
   display: flex;
   align-items: center;
+  background-color: var(--cor-p1);
 }
 
 .botao.seta::after {
@@ -75,18 +76,29 @@
   display: inline-block;
   color: var(--azul-escuro);
   font: 500 1.5rem/1.5 "Poppins", sans-serif;
-  text-transform: uppercase;
   margin-top: 1rem;
 }
 
-.link::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 4px;
-  background-color: currentColor;
+.link.transicao {
+  display: inline-block;
+  transition: 10s;
 }
-
+.link.transicao:after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: var(--cor-p2);
+  display: block;
+  position: relative;
+}
+.link.transicao:hover:after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: var(--cor-p2);
+  display: block;
+  transition: 0.5s;
+}
 .link:hover {
   color: white;
 }
