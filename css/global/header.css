@@ -34,8 +34,8 @@
   width: 240px;
 }
 .navigation nav > a {
-  position: relative;
-  bottom: -370px;
+  position: absolute;
+  bottom: -300px;
 }
 
 .navigation ul li {
