@@ -7,7 +7,7 @@
   padding-bottom: 20px;
 }
 .header img {
-  max-width: 180px;
+  max-width: 200px;
   border-radius: 0px;
 }
 .header a,
@@ -23,6 +23,7 @@
   top: 0px;
   height: 100%;
   background-color: var(--background);
+
   transition: 0.5s;
   display: none;
   border-radius: 5px;
@@ -34,8 +35,7 @@
   width: 240px;
 }
 .navigation nav > a {
-  position: absolute;
-  bottom: -300px;
+  margin-top: 90px;
 }
 
 .navigation ul li {
@@ -78,6 +78,8 @@
 }
 #bar0 {
   background-color: var(--background);
+  background-color: rgba(12, 20, 27, 0.2);
+
   top: -4px;
   height: 100%;
   padding: 6px;
@@ -146,12 +148,24 @@
 .nav-item {
   margin: 0 1rem;
 }
-
+.whatsapp-fixado {
+  position: fixed;
+  bottom: 15%;
+  right: 5%;
+  z-index: 2;
+}
 @media screen and (max-width: 1200px) {
   .nav-item {
     display: none;
   }
   .navigation {
     display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .header img {
+    max-width: 120px;
+    border-radius: 0px;
   }
 }
