@@ -1,0 +1,19 @@
+/* Global */
+@import "global/global.css";
+@import "global/principal.css";
+
+
+/* Header */
+@import "global/header.css";
+
+/* Articles */
+@import "./articles/conteudo-p1.css";
+@import "./articles/conteudo-p2.css";
+
+/* Utilidades */
+@import "./utilidades/componentes.css";
+@import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
+
+/* Footer */
+@import "global/footer.css";
