@@ -40,6 +40,12 @@
   text-align: center;
   border-radius: 4px;
 }
+.ativo {
+  color: var(--cor-p1);
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
 
 .botao-secundario:hover {
   background: var(--cor-9);

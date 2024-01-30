@@ -93,6 +93,9 @@
     grid-template-columns: 1fr;
   }
 
+  .areas-atuacao-bg {
+    background: url("../../img/home/areas-de-atuacao-mobile.jpg") no-repeat;
+  }
   #hide {
     display: none;
   }

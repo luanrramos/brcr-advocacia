@@ -19,7 +19,7 @@
   left: 0;
   width: 50%;
   height: 3px;
-  background-color: var(--amarelo);
+  background-color: var(--cor-p5);
 }
 .quemsomos h2::after {
   content: "";
@@ -28,14 +28,13 @@
   width: 50%;
   height: 3px;
   position: absolute;
-  background-color: var(--amarelo);
+  background-color: var(--cor-p5);
 }
 
 .quemsomos-conteudo {
   text-align: left;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
-  gap: 2rem;
 }
 .quemsomos-conteudo h3 {
   align-self: center;
@@ -47,8 +46,10 @@
   grid-row: 1 / 3;
   margin-bottom: 0px;
   border-radius: 9px;
+  margin-left: 20px;
 }
 .quemsomos-conteudo p {
+  place-self: top;
   grid-column: 1;
 }
 @media (max-width: 1200px) {
@@ -74,6 +75,7 @@
   .quemsomos-conteudo img {
     margin-bottom: 0px;
     border-radius: 4px;
+    margin-left: 0px;
   }
 
   .quemsomos-conteudo p {

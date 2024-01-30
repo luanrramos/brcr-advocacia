@@ -1,15 +1,18 @@
 .introducao {
   display: grid;
   place-items: center;
-  background: url("../../img/home/socios-introducao-min.jpg") top center
-    no-repeat;
-  background-size: cover;
-  padding: 150px 0;
+
+  padding: 90px 0;
   text-align: center;
   position: relative;
 }
-
-.introducao::after {
+.main-bg {
+  background: url("../../img/home/background-main.jpeg") center center no-repeat;
+  background-size: cover;
+  position: relative;
+  max-height: 1000px;
+}
+.main-bg::after {
   content: "";
   top: 0;
   left: 0;
@@ -49,7 +52,7 @@
 @media (max-width: 600px) {
   .introducao {
     padding: 0px 0;
-    padding-zottom: 10px;
+    padding-bottom: 10px;
   }
   .introducao-conteudo {
     margin-top: 0px;
