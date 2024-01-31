@@ -27,7 +27,7 @@
 .areas-atuacao ul {
   display: grid;
   grid-template-columns: repeat(3, minmax(auto, 400px));
-  gap: 40px;
+  gap: 50px;
 }
 .areas-atuacao li {
   background-color: var(--cor-0);
@@ -37,7 +37,8 @@
   padding: 30px;
   gap: 1.5rem;
   position: relative;
-  align-items: center;
+  align-items: start;
+  box-shadow: 0px 0px 10px rgba(52, 55, 55, 0.26);
   transition: 0.7s;
 }
 .areas-atuacao li:after {
@@ -53,7 +54,7 @@
 }
 .areas-atuacao li a {
   max-width: 150px;
-  justify-self: end;
+  justify-self: start;
 }
 .areas-atuacao h2 {
   display: inline-block;
