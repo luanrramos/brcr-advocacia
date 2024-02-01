@@ -95,6 +95,7 @@
 
   .areas-atuacao-bg {
     background: url("../../img/home/areas-de-atuacao-mobile.jpg") no-repeat;
+    background-size: fill;
   }
   #hide {
     display: none;

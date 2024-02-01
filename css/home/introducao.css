@@ -10,7 +10,6 @@
   background: url("../../img/home/background-main.jpeg") center center no-repeat;
   background-size: cover;
   position: relative;
-  max-height: 1000px;
 }
 .main-bg::after {
   content: "";
@@ -31,9 +30,7 @@
 .introducao-conteudo p {
   margin: 40px;
 }
-.icon {
-  max-width: 40%;
-}
+
 .introducao-conteudo a {
   margin-top: 200px;
   text-transform: uppercase;

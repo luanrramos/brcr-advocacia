@@ -16,6 +16,7 @@
 @import "./utilidades/componentes.css";
 @import "./utilidades/cores.css";
 @import "./utilidades/tipografia.css";
+@import "./utilidades/animacao.css";
 
 /* Footer */
 @import "global/footer.css";

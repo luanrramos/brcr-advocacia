@@ -58,13 +58,25 @@ footer img {
   display: flex;
   align-items: center;
   flex-direction: row;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 .footer-mapa {
   display: flex;
   flex-direction: column;
   gap: 30px;
   position: relative;
+}
+.footer-mapa div {
+  display: flex;
+  gap: 0.5rem;
+}
+.footer-mapa div input {
+  cursor: pointer;
+  padding: 6px 12px;
+  text-align: center;
+  background-color: var(--azul-escuro);
+
+  flex: 1;
 }
 .footer-mapa img {
   transition: transform 0.5s ease, box-shadow 0.5s ease;
@@ -76,6 +88,7 @@ footer img {
   max-width: 320px;
   border-radius: 10px;
 }
+
 .footer-copy {
   display: flex;
   justify-content: space-between;

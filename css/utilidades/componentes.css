@@ -41,7 +41,7 @@
   border-radius: 4px;
 }
 .ativo {
-  color: var(--cor-p1);
+  color: var(--cor-p5);
   display: inline-block;
   position: relative;
   transition: 0.3s;
@@ -49,6 +49,10 @@
 
 .botao-secundario:hover {
   background: var(--cor-9);
+}
+
+.inativo {
+  display: none;
 }
 .botao.seta {
   display: flex;
@@ -71,7 +75,7 @@
 }
 .container {
   box-sizing: border-box;
-  max-width: 1400px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;

@@ -2,12 +2,24 @@
   backdrop-filter: blur(6.699999809265137px);
   padding: 100px 0;
   background: rgba(219, 211, 172, 0.95)
-    url(../../img/decoracoes/bottom-right-p.svg) no-repeat top 100px right 200px;
+    url(../../img/home/nossos-escritorios-coliseu.png) center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.nossos-escritorios-bg::after {
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(219, 211, 172, 0.95);
 }
 
 .nossos-escritorios-bg h2 {
+  z-index: 1;
   position: relative;
-  max-width: 600px;
+  max-width: 520px;
   margin: 0 auto;
   margin-bottom: 100px;
 }
@@ -15,27 +27,30 @@
   content: "";
   position: absolute;
   left: 0;
-  top: 1px;
-  width: 150px;
+  width: 50%;
   height: 3px;
-  background-color: var(--cor-p3);
+  background-color: var(--cor-p1);
 }
 
 .nossos-escritorios-bg h2::after {
   content: "";
-  left: 230px;
-  top: 70px;
-  width: 280px;
+  right: 0;
+  top: 100%;
+  width: 50%;
   height: 3px;
   position: absolute;
-  background-color: var(--cor-p3);
+  background-color: var(--cor-p1);
 }
-
+#test {
+  z-index: 1;
+}
 .nossos-escritorios {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
   align-items: center;
+  position: relative;
+  z-index: 1;
 }
 .nossos-escritorios h3 {
   align-self: end;
@@ -71,15 +86,6 @@
     place-content: center;
     padding: 60px 0;
   }
-  .nossos-escritorios-bg h2::before {
-    left: 0;
-    width: 120px;
-  }
-  .nossos-escritorios-bg h2::after {
-    left: 205px;
-    top: 50px;
-    width: 180px;
-  }
 }
 
 @media (max-width: 600px) {
@@ -92,16 +98,6 @@
     display: grid;
     place-self: center;
     margin-bottom: 60px;
-  }
-  .nossos-escritorios-bg h2::before {
-    left: 0px;
-    top: 0px;
-    width: 100px;
-  }
-  .nossos-escritorios-bg h2::after {
-    left: 45%;
-    top: 36px;
-    width: 150px;
   }
 }
 
