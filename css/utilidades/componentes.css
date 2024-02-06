@@ -46,28 +46,33 @@
   position: relative;
   transition: 0.3s;
 }
+.inativo {
+  display: none;
+}
 
 .botao-secundario:hover {
   background: var(--cor-9);
 }
 
-.inativo {
-  display: none;
-}
 .botao.seta {
   display: flex;
   align-items: center;
-  background-color: var(--cor-p1);
+  background-color: var(--cor-p5);
 }
 
 .botao.seta::after {
   content: "";
-  display: inline-block;
-  width: 18px;
-  height: 10px;
+  display: flex;
+  width: 24px;
+  height: 24px;
   margin-left: 12px;
-  background: url("../../img/icones/seta.svg") no-repeat;
   transition: transform 0.2s;
+  background: url("../../img/icones/seta.svg") center center no-repeat;
+  align-items: center;
+}
+
+.botao.seta.pdf::after {
+  background: url("../../img/icones/pdf.svg") no-repeat;
 }
 
 .botao.seta:hover::after {
@@ -91,27 +96,28 @@
 
 .link.transicao {
   display: inline-block;
-  transition: 10s;
+}
+.link:hover {
+  color: var(--cor-p5);
 }
 .link.transicao:after {
   content: "";
   width: 0%;
   height: 2px;
-  background-color: var(--cor-p2);
+  background-color: var(--cor-p5);
   display: block;
   position: relative;
+  transition: 0.3s;
 }
 .link.transicao:hover:after {
   content: "";
   width: 100%;
   height: 2px;
-  background-color: var(--cor-p2);
+  background-color: var(--cor-p5);
   display: block;
-  transition: 0.5s;
+  transition: 0.3s;
 }
-.link:hover {
-  color: white;
-}
+
 @media (max-width: 1200px) {
   .botao img {
     max-width: 1.5rem;

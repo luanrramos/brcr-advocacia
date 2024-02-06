@@ -39,7 +39,8 @@
   width: 240px;
 }
 .navigation nav > a {
-  margin-top: 90px;
+  position: fixed;
+  top: 90%;
 }
 
 .navigation ul li {
@@ -87,7 +88,7 @@
   height: 100%;
   padding: 6px;
   border-radius: 50%;
-  left: -3.4rem;
+  left: -54px;
 }
 #bar2 {
   top: 16px;

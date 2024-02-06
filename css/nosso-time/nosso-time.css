@@ -1,0 +1,138 @@
+/* Título interno */
+.titulo-bg {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #0c141b;
+}
+
+.titulo {
+  background: url("../../img/decoracoes/top-right.svg") no-repeat top 40px right
+    20px;
+}
+
+.titulo p {
+  margin-bottom: 4px;
+}
+
+/* Background destacado em azul escuro */
+.socio-bg {
+  background: linear-gradient(to right, var(--background) 30%, #0c141b 0%);
+}
+
+.nossa-equipe {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nossa-equipe-imagem {
+  display: grid;
+}
+
+.nossa-equipe-imagem ul img {
+  grid-area: 1/1;
+}
+
+.nossa-equipe-conteudo {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: start;
+}
+
+.nossa-equipe h2,
+.nossa-equipe p {
+  grid-column: 1/-1;
+}
+
+.nossa-equipe h2 {
+  margin-bottom: 20px;
+}
+
+.nossa-equipe h2::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+  margin-bottom: 8px;
+}
+
+.nossa-equipe p {
+  margin-bottom: 32px;
+}
+
+.nossa-equipe a {
+  place-self: end;
+}
+
+.nossa-equipe li {
+  display: flex;
+  align-items: center;
+}
+
+.nossa-equipe ul {
+  display: grid;
+  gap: 16px;
+}
+
+.nossa-equipe-conteudo ul img {
+  width: 24px;
+  margin-right: 1rem;
+}
+
+#nossa-equipe-conteudo-titulo {
+  display: flex;
+  justify-content: space-between;
+}
+#nossa-equipe-conteudo-titulo div {
+  display: flex;
+  gap: 1rem;
+  place-self: center;
+}
+@media (max-width: 800px) {
+  .socio-bg {
+    background: #0c141b;
+  }
+  .nossa-equipe {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .nossa-equipe-conteudo {
+    grid-template-columns: 1fr;
+  }
+  .nossa-equipe ul {
+    font-size: 1rem;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 32px;
+  }
+  .nossa-equipe a {
+    place-self: start;
+  }
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .titulo {
+      background: none;
+    }
+  }
+  .titulo p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}

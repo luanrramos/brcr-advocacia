@@ -38,6 +38,7 @@
   gap: 1.5rem;
   position: relative;
   align-items: center;
+  transition: 0.3s;
 }
 .areas-atuacao li:after {
   position: absolute;

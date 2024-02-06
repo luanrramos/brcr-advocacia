@@ -1,8 +1,14 @@
 /* Global */
 @import "global/global.css";
-
-/* Header */
 @import "global/header.css";
+@import "global/footer.css";
+@import "global/saiba-mais.css";
+
+/* Utilidades */
+@import "./utilidades/componentes.css";
+@import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/animacao.css";
 
 /* Home */
 @import "home/introducao.css";
@@ -12,11 +18,5 @@
 @import "home/nossos-escritorios.css";
 @import "home/nossos-artigos.css";
 
-/* Utilidades */
-@import "./utilidades/componentes.css";
-@import "./utilidades/cores.css";
-@import "./utilidades/tipografia.css";
-@import "./utilidades/animacao.css";
-
-/* Footer */
-@import "global/footer.css";
+/* Nosso time */
+@import "nosso-time/nosso-time.css";

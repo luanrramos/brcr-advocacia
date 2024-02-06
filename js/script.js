@@ -7,6 +7,8 @@ function show() {
   body.classList.toggle("shadow");
 }
 
+
+
 //Troca de mapa no Footer
 var btn_cg = document.querySelector("input .btn-cg");
 var btn_es = document.querySelector("input .btn-es");
@@ -24,6 +26,9 @@ function mapaCg() {
   mapa_cg.style.display = "block";
   mapa_es.classList.add("inativo");
 }
+
+
+
 
 //Animação - Homepage
 if (window.SimpleAnime) {

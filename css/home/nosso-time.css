@@ -103,8 +103,8 @@
     height: 100%;
     width: 100%;
     position: absolute;
-    background-image: url(../../img/icones/mostrar-mais-botao.png);
-    background-size: 1.5rem;
+    background-image: url(../../img/icones/mostrar-mais-botao.svg);
+    background-size: 2rem;
     background-position: top 20px right 20px;
     background-repeat: no-repeat;
     border-radius: 5px;
