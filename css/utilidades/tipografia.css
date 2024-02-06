@@ -1,0 +1,143 @@
+.font-1-xxl {
+    font-family: "Poppins";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .font-1-xs {
+    font: 400 0.9rem/1.35 "Poppins", sans-serif;
+  }
+  
+  .font-2-xs {
+    font: 400 0.875rem/1.43 "Roboto", sans-serif;
+  }
+  
+  .font-1-s {
+    font: 400 1.125rem/1.5 "Poppins", sans-serif;
+  }
+  
+  .font-2-s {
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+  }
+  
+  .font-1-m,
+  .font-1-m-b {
+    font: 400 1.125rem/1.35 "Poppins", sans-serif;
+  }
+  
+  .font-1-m-b {
+    font-weight: 600;
+  }
+  
+  .font-2-m {
+    font: 500 1.125rem/1.35 "Roboto", sans-serif;
+  }
+  
+  .font-1-l {
+    font: 600 1.75rem/1.5 "Poppins", sans-serif;
+  }
+  
+  .font-2-l-b {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.015em;
+  }
+  
+  .font-1-xl {
+    font: 600 3rem/1.25 "Poppins", sans-serif;
+  }
+  
+  .font-2-xl {
+    font: 500 1.5rem/1.25 "Roboto", sans-serif;
+  }
+  
+  .font-3-xxl {
+    font-family: "Antic Didone";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .font-2-l {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  
+  @media (max-width: 1200px) {
+    .font-1-xxl {
+      font-size: 3rem;
+    }
+  
+    .font-2-l,
+    .font-2-l-b {
+      font-size: 1.5rem;
+    }
+    .font-1-xl,
+    .font-2-xl {
+      font-size: 1.25rem;
+    }
+    .font-1-l {
+      font: 600 2rem/1.5 "Poppins", sans-serif;
+    }
+    .font-1-s {
+      font: 400 1.125rem/1.5 "Poppins", sans-serif;
+    }
+  }
+  @media (max-width: 800px) {
+    .font-3-xxl {
+      font-size: 3rem;
+    }
+    .font-2-l {
+      font-size: 0.8rem;
+    }
+    .font-2-l-b {
+      font-size: 1.5rem;
+    }
+    .font-1-xxl {
+      font-size: 2rem;
+    }
+    .font-1-l {
+      font: 600 2rem/1.5 "Poppins", sans-serif;
+    }
+    .font-1-s {
+      font: 400 1rem/1.5 "Poppins", sans-serif;
+    }
+    .font-3-xxl {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .font-1-xxl {
+      font-size: 2rem;
+    }
+    .font-1-l {
+      font: 600 1.5rem/1.5 "Poppins", sans-serif;
+    }
+    .font-3-xxl {
+      font-size: 2rem;
+    }
+  
+    .font-1-xxl {
+      font-size: 3rem;
+    }
+    .font-2-l {
+      font-size: 0.8rem;
+    }
+    .font-2-l-b {
+      font-size: 1.125rem;
+    }
+    .font-2-xl {
+      font-size: 0.75rem;
+    }
+    .font-1-s {
+      font-size: 0.875rem;
+    }
+  }
+  
