@@ -7,7 +7,12 @@ function show() {
   body.classList.toggle("shadow");
 }
 
+// Áreas de Atuação
 
+// function hover() {
+//   var verMais = document.getElementById("inativo");
+//   verMais.classList.remove("inativo");
+// }
 
 //Troca de mapa no Footer
 var btn_cg = document.querySelector("input .btn-cg");
@@ -26,9 +31,6 @@ function mapaCg() {
   mapa_cg.style.display = "block";
   mapa_es.classList.add("inativo");
 }
-
-
-
 
 //Animação - Homepage
 if (window.SimpleAnime) {

@@ -27,7 +27,7 @@
 .areas-atuacao ul {
   display: grid;
   grid-template-columns: repeat(3, minmax(auto, 400px));
-  gap: 40px;
+  gap: 90px;
 }
 .areas-atuacao li {
   background-color: var(--cor-0);
@@ -46,7 +46,7 @@
 
 .areas-atuacao li:hover {
   transition: 0.3s;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .areas-atuacao li p,
 .areas-atuacao li a {
@@ -56,6 +56,7 @@
   max-width: 150px;
   justify-self: end;
 }
+
 .areas-atuacao h2 {
   display: inline-block;
   position: relative;
@@ -84,6 +85,27 @@
 .areas-atuacao img {
   max-width: min-content;
 }
+
+.areas-atuacao ul li {
+  border: 2px solid var(--azul-escuro);
+}
+
+.areas-atuacao ul #inativo {
+  display: none;
+}
+@media (hover: hover) {
+  .areas-atuacao ul li:hover {
+    border: 2px solid var(--cor-p1);
+
+    #inativo {
+      display: flex;
+      position: absolute;
+      top: 90%;
+      right: 20%;
+      border: 1px solid var(--cor-p1);
+    }
+  }
+}
 @media (max-width: 1200px) {
   .areas-atuacao ul {
     grid-template-columns: 1fr 1fr;
@@ -96,7 +118,7 @@
 
   .areas-atuacao-bg {
     background: url("../../img/home/areas-de-atuacao-mobile.jpg") no-repeat;
-    background-size: fill;
+    background-size: 100%;
   }
   #hide {
     display: none;
@@ -104,14 +126,9 @@
   .areas-atuacao-bg {
     padding-top: 60px;
   }
-}
 
-@media (max-width: 600px) {
-  .areas-atuacao-bg {
-    background-size: contain;
-  }
-  .areas-atuacao li:hover {
-    transform: scale(1);
+  .areas-atuacao ul {
+    position: relative;
   }
 }
 
@@ -124,5 +141,30 @@
   }
   .areas-atuacao h2::after {
     display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .areas-atuacao-bg {
+    background-size: contain;
+  }
+
+  .areas-atuacao ul li:hover {
+    transform: scale(1);
+  }
+
+  .areas-atuacao ul #inativo {
+    position: relative;
+    display: flex;
+    position: relative;
+    top: 0%;
+    right: 0%;
+  }
+
+  .areas-atuacao ul li:hover {
+    #inativo {
+      display: flex;
+      position: static;
+    }
   }
 }

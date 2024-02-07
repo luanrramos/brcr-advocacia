@@ -49,6 +49,9 @@
 .inativo {
   display: none;
 }
+#inativo {
+  display: none;
+}
 
 .botao-secundario:hover {
   background: var(--cor-9);
@@ -62,7 +65,6 @@
 
 .botao.seta::after {
   content: "";
-  display: flex;
   width: 24px;
   height: 24px;
   margin-left: 12px;
@@ -115,6 +117,13 @@
   height: 2px;
   background-color: var(--cor-p5);
   display: block;
+  transition: 0.3s;
+}
+
+.ativo {
+  color: var(--cor-p5);
+  display: inline-block;
+  position: relative;
   transition: 0.3s;
 }
 

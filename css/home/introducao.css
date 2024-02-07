@@ -47,6 +47,11 @@
   }
 }
 @media (max-width: 600px) {
+  .main-bg {
+    background: url("../../img/home/background-main-mobile.jpeg") center center
+      no-repeat;
+    background-size: cover;
+  }
   .introducao {
     padding: 0px 0;
     padding-bottom: 10px;
