@@ -20,3 +20,8 @@
 
 /* Nosso time */
 @import "nosso-time/nosso-time.css";
+
+/* Artigos */
+@import "./artigo/conteudo-p1.css";
+@import "./artigo/conteudo-p2.css";
+@import "./artigo/artigos-relacionados.css";
