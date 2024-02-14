@@ -13,25 +13,18 @@
   margin-bottom: 60px;
 }
 
-.quemsomos h2::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 50%;
-  height: 3px;
-  background-color: var(--cor-p5);
-}
 .quemsomos h2::after {
   content: "";
   right: 0;
   top: 100%;
-  width: 50%;
-  height: 3px;
+  width: 100%;
+  height: 100%;
   position: absolute;
-  background-color: var(--cor-p5);
+  background: url(../../img/decoracoes/detalhe-1.svg) center no-repeat;
 }
 
 .quemsomos-conteudo {
+  margin-top: 60px;
   text-align: left;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
@@ -64,6 +57,7 @@
     gap: 1rem;
     max-width: 800px;
     margin: 0 auto;
+    margin-top: 2rem;
   }
   .quemsomos img {
     max-width: 100%;
@@ -76,7 +70,6 @@
   .quemsomos-conteudo img {
     margin-bottom: 0px;
     border-radius: 4px;
-
   }
 
   .quemsomos-conteudo p {

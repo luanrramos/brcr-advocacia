@@ -1,17 +1,15 @@
 .p {
   grid-column: 1;
-  font-size: 1.2rem;
 }
 
-#titulo2,
-#titulo3 {
+#paragrafo-titulo {
   grid-column: 1;
-  font-size: 42px;
+  margin-bottom: 2rem;
 }
 
 .artigos-titulo {
-  margin-bottom: 15px;
-  font-size: 20px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .artigos-publicados {
@@ -35,42 +33,17 @@
 }
 
 @media (max-width: 1200px) {
-  .p {
-    font-size: 1rem;
-  }
-  #titulo2,
-  #titulo3 {
-    font-size: 34px;
+  #paragrafo-titulo{
     margin: 8px 0;
-  }
-  .artigos-publicados {
-    grid-column: 2;
-    grid-row: 3/7;
-  }
-}
-
-@media (max-width: 900px) {
-  #titulo2,
-  #titulo3 {
-    font-size: 1.4rem;
   }
 }
 
 @media (max-width: 600px) {
   .p {
-    font-size: 0.8rem;
-  }
-  .artigos-publicados {
-    grid-row: 4/7;
+    grid-column: 1/-1;
   }
 
-  #titulo2,
-  #titulo3 {
-    font-size: 1rem;
+  #paragrafo-titulo {
     margin: 8px 0;
-  }
-
-  .artigos-titulo {
-    font-size: 12px;
   }
 }

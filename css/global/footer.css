@@ -106,6 +106,9 @@ footer img {
   .footer {
     grid-template-columns: 1fr;
   }
+  .footer-logomarca {
+    align-items: center;
+  }
   .footer-mapa {
     display: none;
   }
