@@ -1,0 +1,130 @@
+footer {
+  background-color: var(--cor-0);
+}
+footer img {
+  /* Removendo sombras */
+  fill: rgba(0, 0, 0, 0);
+  stroke-width: 0px;
+  stroke: white;
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
+}
+.footer {
+  display: grid;
+  /* grid-template-columns: repeat(4, 1fr); -> testando novas soluções*/
+  gap: 3rem;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.footer-logomarca {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.footer img {
+  max-width: 120px;
+}
+.footer-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.footer-conteudo ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer-conteudo ul a:hover {
+  color: var(--cor-p1);
+}
+
+.footer-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.footer-contato ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer-contato a {
+  display: flex;
+  gap: 1rem;
+}
+.footer-contato ul a:hover {
+  color: var(--cor-p1);
+}
+#footer-contato-redes {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+.footer-mapa {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+}
+.footer-mapa div {
+  display: flex;
+  gap: 0.5rem;
+}
+.footer-mapa div input {
+  cursor: pointer;
+  padding: 6px 12px;
+  text-align: center;
+  background-color: var(--azul-escuro);
+  flex: 1;
+}
+.footer-mapa img {
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.footer-mapa img:hover {
+  transform: scale(1.2);
+}
+
+/* Maps */
+.footer-mapa img {
+  max-width: 800px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.footer-copy {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 1000px) {
+  .footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-mapa img {
+    max-width: 400px;
+  }
+}
+@media (max-width: 800px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
+  .footer-logomarca {
+    align-items: center;
+  }
+  .footer-mapa {
+    display: none;
+  }
+}
+@media (max-width:400px) {
+  #page-copyright {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  #footer-contato-redes {
+    gap: .8rem;
+  }
+}

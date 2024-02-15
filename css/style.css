@@ -1,0 +1,30 @@
+/* Global */
+@import "global/global.css";
+@import "global/header.css";
+@import "global/footer.css";
+@import "global/saiba-mais.css";
+
+/* Utilidades */
+@import "./utilidades/componentes.css";
+@import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/animacao.css";
+
+/* Home */
+@import "home/introducao.css";
+@import "home/quem-somos.css";
+@import "home/areas-de-atuacao.css";
+@import "home/nosso-time.css";
+@import "home/nossos-escritorios.css";
+@import "home/nossos-artigos.css";
+
+/* Nosso time */
+@import "nosso-time/nosso-time.css";
+
+/* Artigos */
+@import "./artigo/conteudo-p1.css";
+@import "./artigo/conteudo-p2.css";
+@import "./artigo/artigos-relacionados.css";
+
+/* Áreas de Atuação */
+@import "./area-de-atuacao/areas.css";

@@ -1,0 +1,111 @@
+.nossos-escritorios-bg {
+  backdrop-filter: blur(6.699999809265137px);
+  padding: 100px 0;
+  background: rgba(219, 211, 172, 0.95)
+    url(../../img/home/nossos-escritorios-coliseu.png) center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.nossos-escritorios-bg::after {
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(219, 211, 172, 0.95);
+}
+
+.nossos-escritorios-bg h2 {
+  z-index: 1;
+  position: relative;
+  max-width: 520px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.nossos-escritorios-bg h2::after {
+  content: "";
+  right: 0;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../../img/decoracoes/detalhe-2.svg) center no-repeat;
+}
+#test {
+  z-index: 1;
+}
+.nossos-escritorios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.nossos-escritorios h3 {
+  align-self: end;
+}
+.nossos-escritorios img {
+  grid-row: 1 / 3;
+}
+#nossos-escritorios-galeria {
+  text-align: center;
+  grid-row: 3;
+}
+@media (max-width: 1000px) {
+  .nossos-escritorios-bg {
+    background-image: none;
+  }
+
+  .nossos-escritorios {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .nossos-escritorios img {
+    max-width: 75%;
+  }
+}
+@media (max-width: 800px) {
+  .nossos-escritorios-bg h2 {
+    display: grid;
+    place-self: center;
+  }
+  .nossos-escritorios-bg {
+    display: grid;
+    place-items: center;
+    place-content: center;
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .nossos-escritorios-bg {
+    display: grid;
+    place-items: center;
+    place-content: center;
+  }
+  .nossos-escritorios-bg h2 {
+    display: grid;
+    place-self: center;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 400px) {
+  .nossos-escritorios-bg h2 {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 370px) {
+  .nossos-escritorios-bg h2 {
+    text-decoration: underline;
+  }
+  .nossos-escritorios-bg h2::before {
+    display: none;
+  }
+  .nossos-escritorios-bg h2::after {
+    display: none;
+  }
+}

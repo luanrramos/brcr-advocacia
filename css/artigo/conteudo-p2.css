@@ -1,0 +1,49 @@
+.p {
+  grid-column: 1;
+}
+
+#paragrafo-titulo {
+  grid-column: 1;
+  margin-bottom: 2rem;
+}
+
+.artigos-titulo {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.artigos-publicados {
+  grid-column: 2;
+  grid-row: 3/7;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.artigos-publicados h3 {
+  margin-bottom: 1rem;
+}
+
+.artigos li {
+  margin-bottom: 45px;
+}
+
+.artigos li:hover {
+  color: var(--cor-p5);
+}
+
+@media (max-width: 1200px) {
+  #paragrafo-titulo{
+    margin: 8px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .p {
+    grid-column: 1/-1;
+  }
+
+  #paragrafo-titulo {
+    margin: 8px 0;
+  }
+}
