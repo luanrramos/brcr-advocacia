@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link width="156" height="163" rel="icon" href="./img/favicon.svg" type="image/svg+xml">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Somos um escritório
+  de advocacia situado em Campina Grande e Esperança - PB. Com uma infraestrutura moderna e personalizada, atendemos clientes de todo o Brasil.">
+  <title>BRCR Advogados</title>
+  <link rel="preload" href="css/style.css" as="style">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Ícone fixo -->
+  <a class="whatsapp-fixado " href="bit.ly/agende-sua-consulta-conosco">
+    <p class="font-1-s cor-0">Vamos conversar</p> <img width="64px" height="64px" src="img/icones/green-whats.svg" alt="Nosso WhatsApp">
+  </a>
+
+  <!-- bg = background -->
+  <div class="main-bg" id="home">
+    <header class="header container nav-bar">
+      <a href="./">
+        <img width="693px" height="360px" src="img/logos/logo-header-white.png" alt="Logo BRCR">
+
+      </a>
+      <div aria-label="primária" class="nav-list">
+        <ul>
+          <li class=" nav-item"><a data-anime="200" class="fadeInLeft font-1-s ativo" href="./">Página Inicial</a></li>
+          <li class=" nav-item"><a data-anime="300" class=" fadeInLeft font-1-s cor-0" href="#quem-somos">Quem Somos</a></li>
+          <li class=" nav-item"><a data-anime="400" class="fadeInLeft font-1-s cor-0" href="#areas-de-atuacao">Áreas de Atuação</a></li>
+          <li class=" nav-item"><a data-anime="500" class="fadeInLeft font-1-s cor-0" href="nosso-time.html">Nosso Time</a></li>
+          <li class=" nav-item"><a data-anime="550" class="fadeInLeft font-1-s cor-0" href="#artigos">Blog</a></li>
+          <li class=" nav-item"><a data-anime="600" class="fadeInLeft font-1-s cor-0" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+      <div class="navigation">
+        <button aria-label="Primária" class="hamburger" onclick="show()">
+          <div id="bar0" class="bar"></div>
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </button>
+
+        <nav>
+          <ul>
+            <li><a class="font-2-s cor-p5" href="./">Página Inicial</a></li>
+            <li><a class="font-2-s" href="#quem-somos">Quem Somos</a></li>
+            <li><a class="font-2-s" href="#areas-de-atuacao">Áreas de Atuação</a></li>
+            <li><a class="font-2-s" href="nosso-time.html">Nosso Time</a></li>
+            <li><a class="font-2-s" href="#artigos">Blog</a></li>
+            <li><a class="font-2-s" href="#contato">Contato</a></li>
+          </ul>
+          <a width="32px" height="32px" class="navigation-politicas font-2-l-b botao" href="#termos-e-condicoes">Políticas de Privacidade <img src="img/icones/politicas.svg" alt="Políticas de Privacidade"></a>
+
+        </nav>
+      </div>
+    </header>
+    <main class="introducao">
+      <div class="introducao-conteudo">
+        <h1 data-anime="200" class="fadeInDown cor-0 font-3-xxl">Somos um <span class="cor-p5">escritório</span><br> personalizado</h1>
+        <p data-anime="400" class="fadeInDown cor-cinza-escuro font-2-l">Com uma infraestrutura moderna, atendemos clientes de todo o Brasil<span class="cor-p5">.</span></p>
+        <a data-anime="600" class="fadeInDown botao azul-escuro" href="https://api.whatsapp.com/message/EOLRHL5WBAUPE1?autoload=1">
+          <span data-anime="600" class="font-1-s">Entrar em contato</span>
+          <img data-anime="600" width="48px" height="48px" src="img/icones/whatsapp.svg" alt="Ícone - Whatsapp">
+        </a>
+      </div>
+    </main>
+  </div>
+  <article id="quem-somos" class="quemsomos-bg">
+    <div class="quemsomos container">
+      <h2 class="cor-azul-escuro font-3-xxl">Quem Somos?</h2>
+      <div class="quemsomos-conteudo">
+        <h3 class="cor-azul-escuro font-1-xl">Batista Ramos Câmara & Ribeiro
+          Sociedade de Advogados<span class="cor-p1">.</span></h3>
+        <p class="font-1-s">Um escritório que alia tradição e inovação para fornecer soluções jurídicas excepcionais. Fundado com o compromisso de oferecer serviços jurídicos de excelência, nosso escritório tem uma longa história de sucesso e dedicação ao atendimento de nossos clientes.</p>
+
+        <img width="1024px" height="732px" src="img/home/quatro-socios.jpg" alt="Sócios juntos">
+      </div>
+    </div>
+  </article>
+
+  <article id="areas-de-atuacao" class="areas-atuacao-bg">
+    <div class="areas-atuacao container">
+      <h2 class="cor-azul-escuro font-3-xxl">Áreas de Atuação</h2>
+      <ul>
+        <li>
+          <img src="img/icones/pasta-de-negocios 1.svg" alt="Pasta de negócios">
+          <span class="font-2-xl cor-azul-escuro">Direito Trabalhista</span>
+          <p class="font-1-xs">Solução na relação entre pregado e empregador, para preservar a justiça na sociedade.</p>
+          <a class="botao seta" id="inativo" href="#direito-trabalhista">Ver mais</a>
+        </li>
+        <li>
+          <img src="img/icones/pessoas 1.svg" alt="Pessoas 1">
+          <span class="font-2-xl cor-azul-escuro">Direito Previdenciário</span>
+          <p class="font-1-xs">Defendemos os direitos dos segurados, aposentados e pensionistas da previdência social.</p>
+          <a class="botao seta" id="inativo" href="#direito-previdenciario">Ver mais</a>
+
+        </li>
+        <li>
+          <img src="img/icones/livro-de-capa-preta-fechado 1.svg" alt="Livro de capa preta">
+          <span class="font-2-xl cor-azul-escuro">Direito Civil</span>
+          <p class="font-1-xs">Regulamento de direitos e obrigações dos cidadãos e relações entre pessoas naturais e jurídicas.</p>
+          <a class="botao seta" id="inativo" href=" #direito-civil">Ver mais</a>
+
+        </li>
+        <li>
+
+          <img width="36px" height="36px" src="img/icones/bancario.png" alt="Direito Bancáiro">
+          <span class="font-2-xl cor-azul-escuro">Direito Bancário</span>
+          <p class="font-1-xs">Solução na relação entre pregado e empregador, para preservar a justiça na sociedade.</p>
+          <a class="botao seta" id="inativo" href="#direito-bancario">Ver mais</a>
+
+        </li>
+        <li id="hide">
+
+          <img width="36px" height="36px" src="img/icones/societario.png" alt="Direito Societário">
+          <span class="font-2-xl cor-azul-escuro">Societário</span>
+          <p class="font-1-xs">Defendemos os direitos dos segurados, aposentados e pensionistas da previdência social.</p>
+          <a class="botao seta" id="inativo" href="#direito-societario">Ver mais</a>
+
+
+        </li>
+        <li id="hide">
+
+          <img width="36px" height="36px" src="img/icones/inovacao-e-tecnologia.png" alt="Inovação e tecnologia">
+          <span class="font-2-xl cor-azul-escuro">Inovação e Tecnologia</span>
+          <p class="font-1-xs">Regulamento de direitos e obrigações dos cidadãos e relações entre pessoas naturais e jurídicas.</p>
+          <a class="botao seta" id="inativo" href="#inovacao-e-tecnologia">Ver mais</a>
+
+
+        </li>
+      </ul>
+      <a class="link transicao" href="#areas-de-atuacao">SAIBA MAIS</a>
+      </ul>
+    </div>
+  </article>
+
+  <section class="nosso-time container">
+    <h2 class="font-3-xxl cor-azul-escuro">Nosso Time</h2>
+    <ul class="nosso-time-carrossel">
+      <li class="nosso-time-carrossel-img">
+        <img src="./img/socios/ribeiro.jpg" alt="Mayra Ribeiro" class="imagem">
+        <div id="nosso-time-descricao">
+          <h4 class="font-1-l cor-0">Mayra Ribeiro</h4>
+          <span class="font-1-s  cor-p1 "><span class=" cor-cinza-escuro">Sócia</span> <br> Direito Previdenciário <br>Inovação e Tecnologia</span>
+          <a class="nosso-time-descricao-linkedin" href="https://www.linkedin.com/in/mayra-ribeiro-668549165/"><img width="24px" height="24px" src="img/icones/linkedin-white.svg" alt="Linkedin - Mayra Ribeiro"></a>
+
+          <a class="link transicao cor-0 font-1-s" href="nosso-time.html">Conheça</a>
+
+        </div>
+      </li>
+      <li class="nosso-time-carrossel-img">
+        <img src="./img/socios/ramos.jpg" alt="Felipe Ramos" class="imagem">
+        <div id="nosso-time-descricao">
+          <h4 class="font-1-l cor-0">Felipe Ramos</span></h4>
+          <span class="font-1-s  cor-p1"><span class=" cor-cinza-escuro">Sócio</span><br>Institucional <br> Direito Civil </span>
+          <a class="nosso-time-descricao-linkedin" href="#felipe"><img width="24px" height="24px" src="img/icones/linkedin-white.svg" alt="Linkedin - Mayra Ribeiro"></a>
+
+          <!-- Advogado apaixonado pela justiça. Graduado em Direito pela Unifacisa. Especialista em Direito Civil. Comprometido, ético e dedicado aos direitos dos clientes. Experiência sólida e atualizado com as últimas mudanças legais. Representação legal de qualidade e confiança. -->
+
+          <a class="link transicao cor-0 font-1-s" href="nosso-time.html">Conheça</a>
+        </div>
+      </li>
+      <li class="nosso-time-carrossel-img">
+        <img src="./img/socios/batista.jpg" alt="Francian Batista" class="imagem">
+        <div id="nosso-time-descricao">
+          <h4 class="font-1-l cor-0">Francian Batista</h4>
+          <span class="font-1-s cor-p1"><span class=" cor-cinza-escuro">Sócio</span> <br> Empresarial <br> Direito Trabalhista</span>
+          <a class="nosso-time-descricao-linkedin" href="https://www.linkedin.com/in/francian-batista-7541411aa/"><img width="24px" height="24px" src="img/icones/linkedin-white.svg" alt="Linkedin - Francian Batista"></a>
+
+          <!-- Pós-graduando em Direito do Trabalho e Direito Processual do Trabalho. Pesquisador no Grupo de Extensão Socialização em Propriedade Intelectual - GESPI. Advogado militante nas áreas do Direito do Trabalho, Direito Macário e Direito do Consumidor. Sócio fundador do BRCR Sociedade de Advogados.  -->
+
+          <a class="link transicao cor-0 font-1-s" href="nosso-time.html">Conheça</a>
+
+        </div>
+      </li>
+      <li class="nosso-time-carrossel-img">
+        <img src="./img/socios/camara.jpg" alt="Thiago Câmara" class="imagem">
+        <div id="nosso-time-descricao">
+          <h4 class="font-1-l cor-0">Thiago Câmara</h4>
+          <span class="font-1-s cor-p1"> <span class=" cor-cinza-escuro">Sócio</span><br> Direito do Trabalho <br>Direito Bancário</span>
+          <a class="nosso-time-descricao-linkedin" href="https://www.linkedin.com/in/mayra-ribeiro-668549165/"><img width="24px" height="24px" src="img/icones/linkedin-white.svg" alt="Linkedin - Mayra Ribeiro"></a>
+
+          <!-- Advogado Graduado em Direito pela Unifacisa. Com foco na expertise em leis trabalhistas e uma abordagem humanizada centrada no cliente, sua missão é garantir que seus direitos sejam respeitados e que você tenha uma jornada de trabalho justa e equitativa. -->
+          <a class="link transicao cor-0 font-1-s" href="nosso-time.html">Conheça</a>
+
+        </div>
+
+      </li>
+    </ul>
+    <a class="link transicao" href="nosso-time.html">SAIBA MAIS</a>
+
+  </section>
+
+  <article id="escritorios" class="nossos-escritorios-bg">
+    <h2 class="font-3-xxl cor-azul-escuro">Nossos Escritórios</h2>
+    <div id="test" class="nossos-escritorios container">
+      <img width="800px" height="532px" src="img/home/escritorio.png" alt="Imagem de nosso escritório">
+      <div id="nossos-escritorios-galeria">
+        <!-- Carrosel de fotos (FUTURO) -->
+        <!-- 
+        <input type="radio" name="img" id="img1">
+        <input type="radio" name="img" id="img2">
+        <input type="radio" name="img" id="img3"> 
+      -->
+      </div>
+      <h3 class="cor-azul-escuro font-1-xl">Serviço júridico exemplar presencialmente em Campina Grande e Esperança - PB<span class="cor-p2">.</span></h3>
+      <p class="font-1-s">
+        Descubra nossos escritórios em Campina Grande e Esperança, onde a excelência jurídica se encontra com o atendimento personalizado. Estamos aqui para servir e oferecer soluções eficazes para suas necessidades legais.
+      </p>
+    </div>
+  </article>
+  <article id="artigos" class="nossos-artigos container">
+    <h2 class="font-3-xxl cor-azul-escuro">Nossos Artigos</h2>
+    <div class="nossos-artigos-carrossel">
+      <ul>
+        <li>
+          <img src="img/home/exemplo-artigos/artigo1.jpg" alt="Artigo 1">
+          <div>
+            <span class="font-1-xs cor-cinza-escuro">20 de dezembro de 2024</span>
+            <h4 class="cor-0">Desafios Legais na Modernização Agrícola</h4>
+            <a class="link cor-p2" href="artigo1.html">Ver mais</a>
+          </div>
+        </li>
+        <li>
+          <img src="img/home/exemplo-artigos/artigo2.jpg" alt="Artigo 2">
+          <div>
+            <span class="font-1-xs cor-cinza-escuro">15 de Dezembro de 2024</span>
+            <h4 class="cor-0">Guarda Compartilhada: Um Olhar Jurídico </h4>
+            <a class="link cor-p2" href="artigo1.html">Ver mais</a>
+          </div>
+        </li>
+        <li>
+          <img src="img/home/exemplo-artigos/artigo3.jpg" alt="Artigo 3">
+          <div>
+            <span class="font-1-xs cor-cinza-escuro">9 de Dezembro de 2024</span>
+            <h4 class="cor-0">Assédio Laboral: Conheça seus Direitos </h4>
+            <a class="link cor-p2" href="artigo1.html">Ver mais</a>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer container">
+      <div class="footer-logomarca">
+        <img width="671px" height="705px" src="img/icones/logo-footer.png" alt="Logomarca BRCR">
+        <p class="font-1-xs cor-azul-escuro">O sucesso é a dança harmoniosa entre a persistência e a paixão, transformando obstáculos em degraus para o triunfo.</p>
+      </div>
+      <div class="footer-conteudo">
+        <span class="font-1-s cor-azul-escuro">Conteúdo</span>
+        <ul>
+          <li><a class="font-1-xs cor-azul-claro" href="./">Página Inicial</a></li>
+          <li><a class="font-1-xs cor-azul-claro" href="#quemsomos">Quem Somos</a></li>
+          <li><a class="font-1-xs cor-azul-claro" href="#areas-de-atuacao">Áreas de Atuação</a></li>
+          <li><a class="font-1-xs cor-azul-claro" href="#equipe">Nosso Time</a></li>
+          <li><a class="font-1-xs cor-azul-claro" href="#termos-e-condicoes">Termos e Condições</a></li>
+          <li><a class="font-1-xs cor-azul-claro" href="#politicas-de-privacidade">Políticas de Privacidade </a></li>
+        </ul>
+        <ul id="footer-contato-redes">
+          <li>
+            <a href=""><img width="11px" height="11px" src="img/icones/facebook.svg" alt="Facebook"></a>
+          </li>
+          <li>
+            <a href=""><img width="19px" height="15px" src="img/icones/Twitter.svg" alt="Twitter"></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/brcradvogados/"><img width="19px" height="15px" src="img/icones/Instagram.svg" alt="Instagram"></a>
+          </li>
+          <li>
+            <a href=""><img width="19px" height="19px" src="img/icones/LinkedIn.svg" alt="Linkedin"></a>
+          </li>
+          <li>
+            <a href=""><img width="25px" height="15px" src="img/icones/YouTube.svg" alt="Youtube"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-contato">
+        <span class="font-1-s cor-azul-escuro">Contato</span>
+        <ul>
+          <li><a class="font-1-xs cor-azul-claro" href="mailto:brc.advocacia@hotmail.com">
+              <img width="20px" height="15px" src="img/icones/email.svg" alt="Email">brc.advocacia@hotmail.com</a></li>
+          <li><a class="font-1-xs cor-azul-claro" href="tel:981049965">
+              <img width="20px" height="20px" src="img/icones/phone.svg" alt="Telefone de contato">(83) 98104-9965</a></li>
+          <li><a class="font-1-xs cor-azul-claro" href="https://www.google.com/maps/place/R.+Lino+Gomes+da+Silva,+215+-+S%C3%A3o+Jos%C3%A9,+Campina+Grande+-+PB,+58400-360/@-7.2239213,-35.8954453,17z/data=!3m1!4b1!4m6!3m5!1s0x7ac1e4633211fab:0x326f338dc4321905!8m2!3d-7.2239266!4d-35.8905744!16s%2Fg%2F11ffvm7s3x?entry=ttu">
+              <img width="16px" height="19px" src="img/icones/mark.svg" alt="Localização">R. Lino Gomes da Silva, 215 Sala 101 - 1º Andar - São José, Campina Grande - PB</a></li>
+          <li><a class="font-1-xs cor-azul-claro" href="https://www.google.com/maps/place/BRCR+Advogados/@-7.0441998,-35.8333771,13z/data=!4m10!1m2!2m1!1sbrcr+advogados!3m6!1s0x7ac29751990d751:0x4266a1061f8d824e!8m2!3d-7.0203806!4d-35.8593497!15sCg5icmNyIGFkdm9nYWRvc5IBDmxlZ2FsX3NlcnZpY2Vz4AEA!16s%2Fg%2F11l6l11gvv?entry=ttu">
+              <img width="16px" height="19px" src="img/icones/mark.svg" alt="Localização">R. Tomás Rodrigues, 198 - Centro, Esperança - PB</a></li>
+        </ul>
+      </div>
+      <div class="footer-mapa">
+        <span class="font-1-s cor-azul-escuro">Nossos Escritórios</span>
+        <div>
+          <input class="btn-cg botao-secundario font-1-xs cor-0" type="button" value="Campina Grande" onclick="mapaCg()">
+          <input class="btn-es botao-secundario font-1-xs cor-0" type="button" value="Esperança" onclick="mapaEs()">
+        </div>
+        <a href="https://www.google.com/maps/place/BRCR+Advogados/@-7.0203647,-35.8619182,17z/data=!3m1!4b1!4m15!1m8!3m7!1s0x7ac1e4633211fab:0x326f338dc4321905!2sR.+Lino+Gomes+da+Silva,+215+-+S%C3%A3o+Jos%C3%A9,+Campina+Grande+-+PB,+58400-360!3b1!8m2!3d-7.2239266!4d-35.8905744!16s%2Fg%2F11ffvm7s3x!3m5!1s0x7ac29751990d751:0x4266a1061f8d824e!8m2!3d-7.02037!4d-35.8593433!16s%2Fg%2F11l6l11gvv?entry=ttu">
+          <img class="mapa-cg" width="617px" height="503px" src="img/localizacao/geomapa-footer.png" alt="Localização do escritório em Campina Grande">
+          <img class="mapa-es inativo" width="617px" height="503px" src="img/localizacao/geomapa-es.png" alt="Localização do escritório em Esperança"></a>
+      </div>
+    </div>
+    <div id="page-copyright" class="footer-copy container">
+      <p class="font-1-xs">Copyright © 2024 </p>
+      <p class="font-1-xs">Todos os Direitos Reservados</p>
+    </div>
+  </footer>
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
