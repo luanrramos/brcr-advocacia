@@ -9,6 +9,7 @@
 @import "./utilidades/cores.css";
 @import "./utilidades/tipografia.css";
 @import "./utilidades/animacao.css";
+@import "./utilidades/formulario.css";
 
 /* Home */
 @import "home/introducao.css";
@@ -30,3 +31,7 @@
 @import "./quem-somos/brcr.css";
 @import "./quem-somos/diferencial.css";
 @import "./quem-somos/principios.css";
+
+/* Contato */
+@import "./contato/contato.css";
+@import "./contato/locais.css";

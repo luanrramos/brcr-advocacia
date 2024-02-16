@@ -1,0 +1,120 @@
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 60px;
+  text-align: start;
+}
+.contato-bg {
+  background: url("../../img/localizacao/bg\ \(1\).png") center center no-repeat;
+  background-size: cover;
+  position: relative;
+  box-shadow: inset 0 -290px var(--cor-0), inset 0 -80px var(--cor-0);
+}
+
+.contato-informacao {
+  margin-top: 60px;
+  padding-left: 50px;
+}
+
+.p {
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.p2 {
+  margin-top: 120px;
+  font-family: Poppins, sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 1.5;
+  color: var(--cor-azul-escuro);
+}
+
+.contato-informacao p {
+  padding-top: 50px;
+}
+
+#informacao-2 {
+  padding-right: 20px;
+}
+
+.contato-icone img {
+  margin-right: 5px;
+}
+
+.contato-icone ul {
+  padding-top: 25px;
+}
+
+.contato-icone ul li a {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.contato-informacao a {
+  margin-top: 200px;
+  text-transform: uppercase;
+  max-width: 100%;
+}
+
+.contato-formulario {
+  background: var(--cor-1);
+  padding: 40px;
+}
+
+@media (max-width: 1200px) {
+  .contato {
+    grid-template-columns: 1fr;
+    padding: 60px 0;
+    margin-top: 0px;
+  }
+  .contato-informacao a {
+    margin-top: 0px;
+  }
+  .contato-informacao {
+    padding: 0 35px;
+  }
+}
+
+.footer-contato ul a:hover {
+  color: var(--cor-p1);
+}
+
+@media (max-width: 600px) {
+  #container-contato {
+    padding: 0 0;
+    padding-bottom: 10px;
+  }
+  .contato-bg {
+    padding: 0 0;
+    /* box-shadow: none; */
+  }
+  .contato-informacao {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .contato-informacao h1 {
+    margin-top: 40px;
+  }
+  .contato-informacao a {
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 340px) {
+  .contato-informacao {
+    padding: 0 20px;
+  }
+
+  .contato-icone ul li a {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+}

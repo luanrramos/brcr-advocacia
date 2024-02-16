@@ -88,14 +88,14 @@
   }
 
   .quemsomos-bg > .container {
-    /* padding-left: 0px;
-    padding-right: 0px; */
+    padding-left: 0px;
+    padding-right: 0px; 
   }
-  /* .quemsomos h3,
+   .quemsomos h3,
   .quemsomos p {
     padding-left: 20px;
     padding-right: 20px;
-  } */
+  }
 }
 
 @media (max-width: 350px) {

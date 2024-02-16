@@ -129,6 +129,23 @@
 .recuo {
   text-indent: 4em;
 }
+
+/*Adcionado manualmente a Estilização do botão de enviar do formulário*/
+.botao-enviar {
+  background: var(--azul-escuro);
+  color: var(--cor-0);
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
 @media (max-width: 1200px) {
   .botao img {
     max-width: 1.5rem;

@@ -1,0 +1,109 @@
+.contato-formulario {
+  border-radius: 10px;
+  margin-top: 120px;
+  padding-bottom: 120px;
+  width: 400px;
+  margin: 0 auto;
+  box-shadow: 0px 1px 1px 0px rgba(10, 10, 10, 0.79);
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 62px;
+}
+
+.form label {
+  text-align: start;
+  grid-column: auto;
+  display: block;
+  font: 600 1.6rem/1.5 "Poppins", sans-serif;
+  margin-bottom: 15px;
+}
+
+.col-2 {
+  grid-column: span 2;
+}
+
+.form label {
+  font-size: 16px;
+  font-family: poppins;
+  color: var(--azul-escuro);
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  font: 400 1rem/1.5 "roboto", sans-serif;
+  background: var(--cor-3);
+  border: 1px solid var(--cor-2);
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
+  outline: none;
+
+  border-color: var(--cor-azul-escuro);
+  background: var(--cor-0);
+}
+
+@media (max-width: 600px) {
+  .contato-formulario {
+    background-color: var(--cor-0);
+
+    margin-bottom: 80px;
+    padding: 30px;
+    padding-bottom: 60px;
+    width: 280px;
+    height: 450px;
+  }
+
+  .form {
+    grid-template-columns: 1fr;
+  }
+
+  .form label {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .form input[type="text"],
+  .form input[type="email"],
+  .form textarea {
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .form button {
+    margin-top: -50px;
+
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .col-2 {
+    grid-column: 1;
+  }
+}
+@media (max-width: 340px) {
+  .contato-formulario {
+    padding: 20px;
+    padding-bottom: 30px;
+    max-width: 220px;
+  }
+
+  .form {
+    gap: 12px;
+  }
+
+  .form label {
+    margin-bottom: 4px;
+  }
+}

@@ -1,0 +1,69 @@
+.escritorio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 40px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding: 40px;
+}
+
+.escritorio h2 {
+  grid-column: 1/-1;
+  margin-bottom: 60px;
+}
+
+.escritorio img {
+  border-radius: 4px 4px 0 0;
+}
+
+.escritorio-item {
+  border-radius: 4px;
+  background: var(--cor-0);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.escritorio-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px 16px;
+  padding: 32px;
+}
+
+.escritorio-conteudo h3,
+.escritorio-tempo {
+  grid-column: 1/-1;
+}
+
+.escritorio-dados {
+  display: grid;
+  gap: 8px;
+  border-left: 2px solid var(--cor-2);
+  padding-left: 12px;
+}
+
+.escritorio-tempo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+@media (max-width: 800px) {
+  .escritorio {
+    gap: 20px;
+    padding-top: 0px;
+    padding-bottom: 60px;
+  }
+  .escritorio h2 {
+    font-size: 36px;
+  }
+  .escritorio-conteudo {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .escritorio {
+    grid-template-columns: 1fr;
+    margin: 90px 0;
+  }
+}
