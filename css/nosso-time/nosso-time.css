@@ -136,3 +136,9 @@
     font-weight: 400;
   }
 }
+
+@media (max-width: 340px) {
+  .nossa-equipe-conteudo ul {
+    grid-template-columns: 1fr;
+  }
+}

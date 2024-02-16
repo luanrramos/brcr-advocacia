@@ -1,0 +1,56 @@
+.nosso-diferencial {
+  background: url(../../img/decoracoes/bottom-left.svg) end 50px no-repeat;
+  display: grid;
+}
+.nosso-diferencial-titulo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.nosso-diferencial ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.nosso-diferencial ul img {
+  width: 40px;
+  height: 40px;
+}
+
+.nosso-diferencial li {
+  background-color: var(--cor-0);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 5px;
+}
+
+.nosso-diferencial > a {
+  margin-top: 3rem;
+  justify-self: center;
+  font-weight: 200;
+  color: var(--cor-0);
+  background: var(--azul-escuro);
+}
+.nosso-diferencial > a:hover {
+  transition: 0.3s;
+  background: var(--azul-claro);
+}
+@media (max-width: 1200px) {
+  .nosso-diferencial ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .nosso-diferencial ul {
+    grid-template-columns: 1fr;
+  }
+
+  .nosso-diferencial-titulo > span {
+    display: none;
+  }
+}

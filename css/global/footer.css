@@ -65,6 +65,7 @@ footer img {
   flex-direction: column;
   gap: 30px;
   position: relative;
+  align-items: center;
 }
 .footer-mapa div {
   display: flex;
@@ -82,10 +83,10 @@ footer img {
   transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 .footer-mapa img:hover {
-  transform: scale(1.2);
+  transform: scale(1.15);
 }
 .footer-mapa img {
-  max-width: 320px;
+  max-width: 300px;
   border-radius: 10px;
 }
 

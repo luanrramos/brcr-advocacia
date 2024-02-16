@@ -126,10 +126,15 @@
   position: relative;
   transition: 0.3s;
 }
-
+.recuo {
+  text-indent: 4em;
+}
 @media (max-width: 1200px) {
   .botao img {
     max-width: 1.5rem;
+  }
+  .botao {
+    padding: 8px 16px;
   }
 }
 @media (max-width: 800px) {
@@ -141,14 +146,15 @@
     gap: 1rem;
     padding: 12px 24px;
   }
-
+  .recuo {
+    text-indent: 2em;
+  }
   .botao img {
     max-width: 1.25rem;
   }
 }
-
-@media (max-width: 1200px) {
-  .botao {
-    padding: 8px 16px;
+@media (max-width: 600px) {
+  .recuo {
+    text-indent: 1em;
   }
 }

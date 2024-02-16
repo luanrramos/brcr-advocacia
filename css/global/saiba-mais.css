@@ -25,10 +25,15 @@
   place-items: center;
   position: relative;
   z-index: 1;
+  gap: 3rem;
 }
 
 .saiba-mais-conteudo img {
   border-radius: 6px;
+  height: 300px;
+  width: 600px;
+  object-fit: cover;
+  object-position: center 1px;
 }
 .saiba-mais-conteudo > a {
   position: relative;
@@ -56,8 +61,8 @@
   display: grid;
   z-index: 1;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 70%;
+  left: 40%;
   transform: translate(-50%, -50%);
   align-self: center;
 }

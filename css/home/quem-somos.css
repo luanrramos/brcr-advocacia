@@ -46,6 +46,14 @@
   grid-column: 1;
 }
 @media (max-width: 1200px) {
+  .quemsomos {
+    background: none;
+  }
+  .quemsomos-conteudo img {
+    margin-bottom: 3rem;
+    border-radius: 4px;
+  }
+
   .quemsomos-bg {
     padding: 0px 0;
     padding-top: 50px;
@@ -67,10 +75,6 @@
   }
 }
 @media (max-width: 800px) {
-  .quemsomos-conteudo img {
-    margin-bottom: 0px;
-    border-radius: 4px;
-  }
 
   .quemsomos-conteudo p {
     margin-top: 0px;
@@ -84,14 +88,14 @@
   }
 
   .quemsomos-bg > .container {
-    padding-left: 0px;
-    padding-right: 0px;
+    /* padding-left: 0px;
+    padding-right: 0px; */
   }
-  .quemsomos h3,
+  /* .quemsomos h3,
   .quemsomos p {
     padding-left: 20px;
     padding-right: 20px;
-  }
+  } */
 }
 
 @media (max-width: 350px) {

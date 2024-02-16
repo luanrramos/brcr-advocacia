@@ -1,11 +1,3 @@
-.introducao {
-  display: grid;
-  place-items: center;
-
-  padding: 90px 0;
-  text-align: center;
-  position: relative;
-}
 .main-bg {
   background: url("../../img/home/background-main.jpeg") center center no-repeat;
   background-size: cover;
@@ -19,6 +11,15 @@
   width: 100%;
   position: absolute;
   background-color: rgba(36, 35, 35, 0.84);
+}
+
+.introducao {
+  display: grid;
+  place-items: center;
+
+  padding: 90px 0;
+  text-align: center;
+  position: relative;
 }
 
 .introducao-conteudo {

@@ -24,4 +24,9 @@
 /* Artigos */
 @import "./artigo/conteudo-p1.css";
 @import "./artigo/conteudo-p2.css";
-@import "./artigo/artigos-relacionados.css";
+
+/* Quem Somos */
+@import "./quem-somos/introducao.css";
+@import "./quem-somos/brcr.css";
+@import "./quem-somos/diferencial.css";
+@import "./quem-somos/principios.css";
