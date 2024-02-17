@@ -72,3 +72,10 @@
     justify-self: start;
   }
 }
+
+@media (max-width: 800px) {
+  .principios {
+    background-image: url(../../img/quem-somos/principios-bg-vertical.svg);
+    background-position: center;
+  }
+}

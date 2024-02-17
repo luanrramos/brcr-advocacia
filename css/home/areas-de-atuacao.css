@@ -109,7 +109,8 @@
 
   .areas-atuacao-bg {
     background: url("../../img/home/areas-de-atuacao-mobile.jpg") no-repeat;
-    background-size: 100%;
+    background-position: top;
+    background-size: cover;
   }
   #hide {
     display: none;
@@ -136,10 +137,6 @@
 }
 
 @media (max-width: 600px) {
-  .areas-atuacao-bg {
-    background-size: contain;
-  }
-
   .areas-atuacao ul li:hover {
     transform: scale(1);
   }
