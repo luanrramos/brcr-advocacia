@@ -22,6 +22,10 @@
 /* Nosso time */
 @import "nosso-time/nosso-time.css";
 
+/* Áreas de Atuação */
+@import "./areas-de-atuacao/areas.css";
+@import "./areas-de-atuacao/pagina-areas-de-atuacao.css";
+
 /* Artigos */
 @import "./artigo/conteudo-p1.css";
 @import "./artigo/conteudo-p2.css";

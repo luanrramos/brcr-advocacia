@@ -29,6 +29,11 @@
   grid-template-columns: repeat(3, minmax(auto, 400px));
   gap: 90px;
 }
+
+.areas-atuacao img {
+  width: 32px;
+  height: 32px;
+}
 .areas-atuacao li {
   background-color: var(--cor-0);
   border-radius: 4px;
@@ -71,10 +76,6 @@
   height: 100%;
   position: absolute;
   background: url(../../img/decoracoes/detalhe-2.svg) center no-repeat;
-}
-
-.areas-atuacao img {
-  max-width: min-content;
 }
 
 .areas-atuacao ul li {
