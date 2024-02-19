@@ -64,6 +64,13 @@
   background: var(--cor-1);
   padding: 40px;
 }
+.contato-abaixo {
+  display: none;
+}
+
+.footer-contato ul a:hover {
+  color: var(--cor-p1);
+}
 
 @media (max-width: 1200px) {
   .contato {
@@ -77,10 +84,12 @@
   .contato-informacao {
     padding: 0 35px;
   }
-}
-
-.footer-contato ul a:hover {
-  color: var(--cor-p1);
+  .contato-abaixo {
+    display: inline;
+  }
+  .contato-ao-lado {
+    display: none;
+  }
 }
 
 @media (max-width: 600px) {

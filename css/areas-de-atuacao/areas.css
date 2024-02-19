@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap"); */
 
 .bancario-bg {
   background: linear-gradient(to top, rgb(1, 1, 1) 10%, transparent),
@@ -12,7 +12,7 @@
 
 .previdencia-bg {
   background: linear-gradient(to top, rgb(1, 1, 1) 10%, transparent),
-    url("../../img/cards/previdencia-social-inss.webp") center center no-repeat;
+    url("../../img/cards/previdencia-social.jpeg") center center no-repeat;
 }
 
 .civil-bg {
