@@ -34,10 +34,11 @@
   font-weight: 200;
   color: var(--cor-0);
   background: var(--azul-escuro);
+  transition: 0.3s;
 }
 .nosso-diferencial > a:hover {
   transition: 0.3s;
-  background: var(--azul-claro);
+  background: var(--cor-p5);
 }
 @media (max-width: 1200px) {
   .nosso-diferencial ul {

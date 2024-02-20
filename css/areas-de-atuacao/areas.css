@@ -139,10 +139,6 @@
     background: linear-gradient(to top, rgb(1, 1, 1) 10%, transparent),
       url("../../img/cards/civil.png") 0px -0px no-repeat;
   }
-  .titulo {
-    margin-top: 400px;
-    margin-left: 20px;
-  }
 
   .area-card {
     width: 80%;

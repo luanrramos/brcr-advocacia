@@ -15,6 +15,7 @@
   width: 100%;
   position: absolute;
   background-color: rgba(198, 207, 209, 0.83);
+  background-color: rgba(21, 38, 64, 0.84);
 }
 
 .areas-atuacao {
@@ -35,7 +36,7 @@
   height: 32px;
 }
 .areas-atuacao li {
-  background-color: var(--cor-0);
+  background-color: var(--background);
   border-radius: 4px;
   display: grid;
   grid-template-columns: auto 1fr;
@@ -68,18 +69,8 @@
   margin-bottom: 60px;
 }
 
-.areas-atuacao h2::after {
-  content: "";
-  right: 0;
-  top: 100%;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background: url(../../img/decoracoes/detalhe-2.svg) center no-repeat;
-}
-
 .areas-atuacao ul li {
-  border: 2px solid var(--azul-escuro);
+  border: 2px solid var(--cor-p5);
 }
 
 .areas-atuacao ul #inativo {
