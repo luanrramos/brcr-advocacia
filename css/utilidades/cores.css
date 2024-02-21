@@ -13,14 +13,13 @@
   --cor-11: #111111;
   --cor-12: #000000;
 
-  --cor-p1: #ffbb00;
   --cor-p1: #ffd529;
-  --cor-p2: #e4a30b;
+  --cor-p2: #ffbb00;
   --cor-p3: #a66f00;
   --cor-p4: #664400;
   --cor-p5: #ffd529;
 
-  --azul-escuro: #152640;
+  --azul-escuro: rgba(21, 38, 64, 1);
   --amarelo: #ecd087;
   --cinza-escuro: rgba(191, 198, 201, 0.8);
   --cinza-azulado: rgba(191, 198, 201, 1);

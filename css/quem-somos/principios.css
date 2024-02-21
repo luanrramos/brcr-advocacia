@@ -16,13 +16,10 @@
   position: relative;
 }
 .principios h2::after {
-  content: "";
-  right: 0;
-  top: 100%;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background: url(../../img/decoracoes/detalhe-3.svg) center no-repeat;
+  background-color: var(--azul-escuro);
+}
+.principios h2::before {
+  background-color: var(--azul-escuro);
 }
 
 .principios ul {
@@ -44,12 +41,12 @@
   grid-row: 1 / 3;
   grid-column: 2;
 }
-.principios span {
+.principios ul span {
   position: relative;
   display: block;
 }
 
-.principios span::before {
+.principios ul span::before {
   content: "";
   width: 40px;
   height: 40px;
@@ -77,5 +74,10 @@
   .principios {
     background-image: url(../../img/quem-somos/principios-bg-vertical.svg);
     background-position: center;
+  }
+}
+@media (max-width: 600px) {
+  #principios-ativo {
+    display: none;
   }
 }
