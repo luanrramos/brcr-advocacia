@@ -6,28 +6,31 @@
   background-position: center;
   background-size: cover;
   margin-top: 90px;
+  padding-bottom: 90px;
   padding-right: 40px;
   padding-left: 40px;
+  max-height: 600px;
 }
 .principios h2 {
   text-align: center;
-  margin-top: 90px;
-  margin-bottom: 120px;
+  margin-top: 70px;
+  margin-bottom: 70px;
   position: relative;
 }
-.principios h2::after {
-  background-color: var(--azul-escuro);
+
+.principios.detalhe-subtitulo h2:after {
+  background-color: var(--cor-p5);
 }
-.principios h2::before {
-  background-color: var(--azul-escuro);
+
+.principios.detalhe-subtitulo h2:before {
+  background-color: var(--cor-p5);
 }
 
 .principios > ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 5rem;
-  margin-bottom: 90px;
   justify-items: center;
+  gap: 3rem;
   align-items: start;
 }
 .principios ul > li {
@@ -41,22 +44,23 @@
   grid-row: 1 / 3;
   grid-column: 2;
 }
-.principios.detalhe-subtitulo h2:after {
-  background-color: var(--cor-p5);
-}
-
-.principios.detalhe-subtitulo h2:before {
-  background-color: var(--cor-p5);
-}
-
-.principios li > ul {
+#principios-valores {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
+#principios-valores li {
+  display: flex;
+  gap: 1rem;
+}
+
 @media (max-width: 1200px) {
+  .principios {
+    max-height: max-content;
+    padding-bottom: 40px;
+  }
   .principios ul {
-    grid-template-columns: 1fr;
+    gap: 2rem;
   }
   .principios ul li:nth-child(2) {
     grid-column: auto;
@@ -64,14 +68,23 @@
   .principios ul li:last-child {
     grid-row: auto;
     grid-column: auto;
-    justify-self: start;
+    place-self: start;
   }
 }
 
 @media (max-width: 800px) {
+  .principios ul {
+    grid-template-columns: 1fr;
+  }
   .principios {
     background-image: url(../../img/quem-somos/principios-bg-vertical.svg);
     background-position: center;
+    max-height: max-content;
+  }
+
+  .principios ul > li {
+    display: grid;
+    gap: 2rem;
   }
 }
 @media (max-width: 600px) {

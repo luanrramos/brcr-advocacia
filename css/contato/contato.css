@@ -10,10 +10,21 @@
   position: relative;
   box-shadow: inset 0 -290px var(--cor-0), inset 0 -80px var(--cor-0);
 }
-
+.contato::after {
+  box-shadow: inset 0 -290px var(--cor-0), inset 0 -80px var(--cor-0);
+  z-index: 0;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(21, 38, 64, 0.75);
+}
 .contato-informacao {
   margin-top: 60px;
   padding-left: 50px;
+  z-index: 10;
 }
 
 .p {
@@ -63,6 +74,7 @@
 .contato-formulario {
   background: var(--cor-1);
   padding: 40px;
+  z-index: 10;
 }
 .contato-abaixo {
   display: none;
