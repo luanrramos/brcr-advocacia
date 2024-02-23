@@ -68,7 +68,6 @@ footer img {
 }
 .footer-mapa div {
   display: flex;
-  flex: 1;
   gap: 0.5rem;
 }
 .footer-mapa div input {
@@ -79,21 +78,14 @@ footer img {
 
   flex: 1;
 }
+
 .footer-mapa img:hover {
   transform: scale(1.15);
 }
-.footer-mapa > a {
-  display: flex;
-  place-self: center;
-}
-.footer-mapa > a img {
-  display: flex;
-  place-self: center;
-
+.footer-mapa img {
   transition: transform 0.5s ease, box-shadow 0.5s ease;
-  max-width: 350px;
   border-radius: 10px;
-  place-self: center;
+  max-width: 100%;
 }
 
 .footer-copy {
@@ -104,12 +96,20 @@ footer img {
   padding-bottom: 2rem;
 }
 
+.footer-mapa > a {
+  display: flex;
+}
+.footer-mapa > a img {
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  border-radius: 10px;
+}
+
 @media (max-width: 1200px) {
   .footer-mapa img {
-    max-width: 300px;
     border-radius: 10px;
   }
 }
+
 @media (max-width: 1000px) {
   .footer {
     grid-template-columns: repeat(2, 1fr);
@@ -123,6 +123,7 @@ footer img {
     display: none;
   }
 }
+
 @media (max-width: 300px) {
   .whatsapp-fixado {
     display: none;

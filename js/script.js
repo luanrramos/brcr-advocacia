@@ -32,7 +32,8 @@ function mapaCg() {
   mapa_es.classList.add("inativo");
 }
 
-//Animação - Homepage
+//Animação - Div's principais do Site
 if (window.SimpleAnime) {
   new SimpleAnime();
 }
+

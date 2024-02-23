@@ -65,6 +65,13 @@
   left: 40%;
   transform: translate(-50%, -50%);
   align-self: center;
+  color: var(--background);
+}
+.saiba-mais-conteudo a > span {
+  color: var(--cor-p5);
+}
+.saiba-mais-conteudo a > span:hover {
+  color: var(--azul-escuro);
 }
 
 @media (max-width: 1200px) {
