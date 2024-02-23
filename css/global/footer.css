@@ -65,10 +65,10 @@ footer img {
   flex-direction: column;
   gap: 30px;
   position: relative;
-  align-items: center;
 }
 .footer-mapa div {
   display: flex;
+  flex: 1;
   gap: 0.5rem;
 }
 .footer-mapa div input {
@@ -79,15 +79,21 @@ footer img {
 
   flex: 1;
 }
-.footer-mapa img {
-  transition: transform 0.5s ease, box-shadow 0.5s ease;
-}
 .footer-mapa img:hover {
   transform: scale(1.15);
 }
-.footer-mapa img {
-  max-width: 300px;
+.footer-mapa > a {
+  display: flex;
+  place-self: center;
+}
+.footer-mapa > a img {
+  display: flex;
+  place-self: center;
+
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  max-width: 350px;
   border-radius: 10px;
+  place-self: center;
 }
 
 .footer-copy {
@@ -98,6 +104,12 @@ footer img {
   padding-bottom: 2rem;
 }
 
+@media (max-width: 1200px) {
+  .footer-mapa img {
+    max-width: 300px;
+    border-radius: 10px;
+  }
+}
 @media (max-width: 1000px) {
   .footer {
     grid-template-columns: repeat(2, 1fr);
@@ -109,5 +121,37 @@ footer img {
   }
   .footer-mapa {
     display: none;
+  }
+}
+@media (max-width: 300px) {
+  .whatsapp-fixado {
+    display: none;
+  }
+  .footer {
+    grid-template-columns: 1fr;
+  }
+  .footer img {
+    max-width: 80px;
+  }
+  .footer-logomarca > p {
+    display: none;
+  }
+  .footer-contato {
+    place-items: center;
+  }
+  .footer-contato span {
+    display: none;
+  }
+
+  .footer-contato li:last-child {
+    display: none;
+  }
+  #footer-contato-redes {
+    flex-direction: column;
+  }
+  .footer-copy {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
   }
 }

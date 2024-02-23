@@ -35,7 +35,7 @@
 .form input[type="email"],
 .form textarea {
   font: 400 1rem/1.5 "roboto", sans-serif;
-  background: var(--cor-3);
+  background: var(--background);
   border: 1px solid var(--cor-2);
   padding: 10px;
   border-radius: 4px;

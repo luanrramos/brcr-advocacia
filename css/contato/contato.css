@@ -24,7 +24,7 @@
 .contato-informacao {
   margin-top: 60px;
   padding-left: 50px;
-  z-index: 10;
+  z-index: 1;
 }
 
 .p {
@@ -36,7 +36,7 @@
 
 .p2 {
   margin-top: 120px;
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 38px;
   font-weight: 800;
   line-height: 1.5;
@@ -74,7 +74,7 @@
 .contato-formulario {
   background: var(--cor-1);
   padding: 40px;
-  z-index: 10;
+  z-index: 1;
 }
 .contato-abaixo {
   display: none;
@@ -102,6 +102,9 @@
   .contato-ao-lado {
     display: none;
   }
+  .contato-informacao a {
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -122,11 +125,10 @@
   }
   .contato-informacao a {
     margin-top: 0px;
-    margin-bottom: 40px;
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 400px) {
   .contato-informacao {
     padding: 0 20px;
   }
