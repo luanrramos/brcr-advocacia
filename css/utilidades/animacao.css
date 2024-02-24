@@ -25,3 +25,33 @@ Devem ser adicionadas na frente do código essencial do item 2.
   transform: none;
   transition: transform 0.8s, opacity 0.8s;
 }
+
+/* Data-saiba */
+[data-saiba] {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+[data-saiba="top"] {
+  transform: translate3d(0, -50px, 0);
+}
+
+[data-saiba="left"] {
+  transform: translate3d(-40px, 0, 0);
+  transition: 0.6s;
+}
+
+[data-saiba="right"] {
+  transform: translate3d(40px, 0, 0);
+  transition: 0.6s;
+}
+
+[data-saiba="left-a"] {
+  transform: translate3d(-120px, 0, 0);
+  transition: 0.6s;
+}
+
+[data-saiba].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0);
+}

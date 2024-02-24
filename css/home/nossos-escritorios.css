@@ -6,6 +6,7 @@
     center no-repeat;
   background-size: cover;
   position: relative;
+  margin-bottom: 120px;
 }
 .nossos-escritorios-bg::after {
   content: "";

@@ -1,13 +1,7 @@
 footer {
-  background-color: var(--cor-0);
+  background-color: var(--cor-1);
 }
-footer img {
-  /* Removendo sombras */
-  fill: rgba(0, 0, 0, 0);
-  stroke-width: 0px;
-  stroke: white;
-  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
-}
+
 .footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -92,8 +86,8 @@ footer img {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .footer-mapa > a {
