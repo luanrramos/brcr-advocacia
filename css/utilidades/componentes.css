@@ -23,7 +23,7 @@
 .botao:hover {
   background: var(
     --gradiente,
-    linear-gradient(var(--cor-p1), rgba(194, 165, 92, 0.5))
+    linear-gradient(var(--cor-p1), rgba(194, 165, 92, 0.9))
   );
 }
 

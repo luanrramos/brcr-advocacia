@@ -30,10 +30,10 @@
 
 .saiba-mais-conteudo img {
   border-radius: 6px;
-  height: 300px;
   width: 600px;
+  height: 320px;
   object-fit: cover;
-  object-position: center 1px;
+  object-position: center;
 }
 .saiba-mais-conteudo > a {
   position: relative;
@@ -55,28 +55,43 @@
   height: 100%;
   width: 100%;
   position: absolute;
-  background: rgba(21, 38, 64, 0.86);
+  background: rgba(21, 38, 64, 0.7);
 }
 .saiba-mais-conteudo div > span {
   display: grid;
   z-index: 1;
   position: absolute;
-  top: 70%;
-  left: 40%;
+  top: 80%;
+  left: 20%;
   transform: translate(-50%, -50%);
   align-self: center;
   color: var(--background);
 }
 .saiba-mais-conteudo a > span {
-  color: var(--cor-p5);
-}
-.saiba-mais-conteudo a > span:hover {
   color: var(--azul-escuro);
 }
 
+#saiba-mais-nosso-time {
+  object-position: top;
+}
 @media (max-width: 1200px) {
   .saiba-mais-conteudo {
     grid-template-columns: 1fr;
     gap: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .saiba-mais-conteudo div > span {
+    top: 80%;
+    left: 30%;
+  }
+}
+
+@media (hover: hover) {
+  .saiba-mais-conteudo div:hover {
+    span {
+      color: var(--cor-p5);
+    }
   }
 }

@@ -46,8 +46,16 @@
   align-items: center;
   gap: 8px;
 }
-
+@media (max-width: 1000px) {
+  .escritorio-conteudo {
+    grid-template-columns: 1fr;
+  }
+}
 @media (max-width: 800px) {
+  .escritorio {
+    display: grid;
+    place-content: center;
+  }
   .escritorio {
     gap: 20px;
     padding-top: 0px;
@@ -55,9 +63,6 @@
   }
   .escritorio h2 {
     font-size: 36px;
-  }
-  .escritorio-conteudo {
-    grid-template-columns: 1fr;
   }
 }
 

@@ -27,14 +27,14 @@
 
 .form label {
   font-size: 16px;
-  font-family: poppins;
+  font-family: "Poppins";
   color: var(--azul-escuro);
 }
 
 .form input[type="text"],
 .form input[type="email"],
 .form textarea {
-  font: 400 1rem/1.5 "roboto", sans-serif;
+  font: 400 1rem/1.5 "Roboto", sans-serif;
   background: var(--background);
   border: 1px solid var(--cor-2);
   padding: 10px;
@@ -92,9 +92,10 @@
     grid-column: 1;
   }
 }
-@media (max-width: 340px) {
+
+@media (max-width: 400px) {
   .contato-formulario {
-    padding: 20px;
+    padding: 0px;
     padding-bottom: 30px;
     max-width: 220px;
   }
