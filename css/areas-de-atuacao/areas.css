@@ -127,7 +127,21 @@
   grid-template-columns: min-content 1fr;
   align-items: center;
 }
-
+#areas-atuacao {
+  display: grid;
+}
+#areas-atuacao > a {
+  margin-top: 3rem;
+  justify-self: center;
+  font-weight: 200;
+  color: var(--cor-0);
+  background: var(--azul-escuro);
+  transition: 0.3s;
+}
+#areas-atuacao > a:hover {
+  transition: 0.3s;
+  background: var(--cor-p5);
+}
 @media (max-width: 1000px) {
   .titulo-detalhe {
     max-width: 100%;
