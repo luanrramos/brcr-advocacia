@@ -43,7 +43,7 @@
   height: 100%;
   width: 100%;
   position: absolute;
-  background-color: rgba(12, 20, 27, 0.87);
+  background-color: rgba(12, 20, 27, 0.8);
 }
 
 .nosso-time-carrossel-img img {
@@ -51,7 +51,7 @@
   max-height: 400px;
   object-fit: cover;
   object-position: center;
-  box-shadow: 5px 5px 10px rgba(12, 20, 27, 0.87);
+  box-shadow: 5px 5px 10px rgba(12, 20, 27, 0.8);
   position: relative;
 }
 
@@ -76,6 +76,10 @@
   padding: 8px;
   background-color: var(--cor-p5);
   border-radius: 50%;
+}
+
+.conheca {
+  display: none;
 }
 @media (max-width: 800px) {
   .nosso-time-carrossel-img:after {
@@ -109,6 +113,34 @@
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.8);
   }
 
+  .conheca {
+    color: rgba(6, 29, 48, 1);
+    display: flex;
+    max-width: 250px;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5;
+    border-radius: 5px;
+    background: var(
+      --gradiente,
+      linear-gradient(var(--cor-p5), rgba(194, 165, 92, 0.7))
+    );
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  .conheca:hover {
+    background: var(
+      --gradiente,
+      linear-gradient(var(--cor-p1), rgba(194, 165, 92, 0.9))
+    );
+  }
   .nosso-time {
     padding: 60px 0;
   }

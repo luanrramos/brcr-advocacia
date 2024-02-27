@@ -14,7 +14,7 @@
   height: 100%;
   width: 100%;
   position: absolute;
-  background-color: rgba(21, 38, 64, 0.8);
+  background-color: rgba(21, 38, 64, 0.7);
 }
 
 .areas-atuacao {
@@ -99,8 +99,8 @@
   }
 
   .areas-atuacao-bg {
-    background: url("../../img/home/areas-de-atuacao-mobile.jpg") no-repeat;
-    background-position: top;
+    background: url("../../img/home/estatua-mobile.png") no-repeat;
+    background-position: bottom;
     background-size: cover;
   }
   #hide {

@@ -10,6 +10,7 @@
   position: relative;
   box-shadow: inset 0 -200px var(--background), inset 0 -80px var(--cor-0);
 }
+
 .contato::after {
   box-shadow: inset 0 -200px var(--background), inset 0 -80px var(--cor-0);
   z-index: 0;
@@ -19,7 +20,7 @@
   height: 100%;
   width: 100%;
   position: absolute;
-  background-color: rgba(21, 38, 64, 0.75);
+  background-color: rgba(21, 38, 64, 0.85);
 }
 .contato-informacao {
   margin-top: 60px;
@@ -58,11 +59,15 @@
 .contato-icone ul {
   padding-top: 25px;
 }
-
+.contato-icone ul li {
+  margin-bottom: 1rem;
+}
 .contato-icone ul li a {
   display: flex;
   flex-direction: row;
   margin-top: 10px;
+  width: 250px;
+  gap: 10px;
 }
 
 .contato-informacao a {
@@ -128,7 +133,7 @@
   }
   .contato-bg {
     padding: 0;
-    background: url("../../img/socios/ramos-e-batista.jpg") center -20px no-repeat;
+    background: url("../../img/contato/ramos-e-batista.jpg") center -20px no-repeat;
     background-size: 50%;
     position: relative;
     background-position: left right;

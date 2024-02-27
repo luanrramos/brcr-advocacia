@@ -1,0 +1,19 @@
+.contato-bg-home {
+  background: url("../../img/quem-somos/principios-bg.svg") center center
+    no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 2rem;
+}
+#container-contato:after {
+  box-shadow: 0 0;
+  background-color: rgba(21, 38, 64, 0.6);
+}
+@media (max-width: 600px) {
+  .contato-bg-home {
+    background: url("../../img/quem-somos/principios-bg-vertical.svg") center
+      center no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+}
