@@ -1,3 +1,14 @@
+.shadow::after {
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(12, 20, 27, 0.5);
+  z-index: 1;
+}
+
 .botao {
   color: rgba(6, 29, 48, 1);
   display: flex;

@@ -2,21 +2,11 @@ body {
   margin: 0px;
   padding: 0px;
   color: #111111;
-  font-family: Poppins, Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   background-color: #f2f2f2;
   position: relative;
 }
 
-.shadow::after {
-  content: "";
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  background-color: rgba(12, 20, 27, 0.5);
-  z-index: 1;
-}
 h1,
 h2,
 h3,
