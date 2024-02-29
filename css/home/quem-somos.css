@@ -22,6 +22,7 @@
 }
 .quemsomos-conteudo h3 {
   align-self: center;
+  text-align: center;
 }
 
 .quemsomos-conteudo img {
@@ -32,7 +33,6 @@
   border-radius: 9px;
 }
 .quemsomos-conteudo p {
-  place-self: top;
   grid-column: 1;
 }
 @media (max-width: 1200px) {

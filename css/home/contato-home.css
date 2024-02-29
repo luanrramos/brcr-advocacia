@@ -1,13 +1,13 @@
 .contato-bg-home {
-  background: url("../../img/quem-somos/principios-bg.svg") center center
-    no-repeat;
+  background: url("../../img/home/Group\ 39469.svg") center center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 2rem;
+  padding: 2rem;
 }
 #container-contato:after {
   box-shadow: 0 0;
-  background-color: rgba(21, 38, 64, 0.6);
+  background-color: rgba(21, 38, 64, 0);
 }
 @media (max-width: 600px) {
   .contato-bg-home {
