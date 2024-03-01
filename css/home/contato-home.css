@@ -4,8 +4,11 @@
   position: relative;
   padding-top: 2rem;
   padding: 2rem;
+  border-radius: 0px;
 }
 #container-contato:after {
+  border-radius: 0px;
+
   box-shadow: 0 0;
   background-color: rgba(21, 38, 64, 0);
 }
