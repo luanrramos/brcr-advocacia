@@ -2,7 +2,7 @@
   margin-top: 120px;
   margin-bottom: 80px;
   position: relative;
-  overflow-x: auto;
+/* overflow-x: auto; */
 }
 
 .outras-areas h2 {

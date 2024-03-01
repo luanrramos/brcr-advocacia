@@ -4,12 +4,12 @@
 @import "global/footer.css";
 @import "global/saiba-mais.css";
 @import "global/outras-areas.css";
+@import "global/animations.css";
 
 /* Utilidades */
 @import "./utilidades/componentes.css";
 @import "./utilidades/cores.css";
 @import "./utilidades/tipografia.css";
-@import "./utilidades/animacao.css";
 @import "./utilidades/formulario.css";
 
 /* Home */
