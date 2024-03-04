@@ -95,11 +95,9 @@
 
 @media (max-width: 400px) {
   .contato-formulario {
-    padding: 0px;
-    padding-bottom: 30px;
-    max-width: 220px;
+    max-width: auto;
+    width: 220px;
   }
-
   .form {
     gap: 12px;
   }

@@ -1,6 +1,6 @@
 .principios {
   display: grid;
-  justify-items: center;
+  /* justify-items: center; */
   background-image: url(../../img/quem-somos/principios-bg.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -29,9 +29,8 @@
 .principios > ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
+  align-items: center;
   gap: 3rem;
-  align-items: start;
 }
 .principios ul > li {
   display: grid;

@@ -8,11 +8,6 @@
     url("../../img/cards/trabalhista.jpg") center center no-repeat;
 }
 
-.previdencia-bg {
-  background: linear-gradient(to top, rgb(1, 1, 1) 10%, transparent),
-    url("../../img/cards/previdencia-social.jpeg") center center no-repeat;
-}
-
 .civil-bg {
   background: linear-gradient(to top, rgb(1, 1, 1) 10%, transparent),
     url("../../img/cards/civil.png") 0px -140px no-repeat;
@@ -141,6 +136,10 @@
 #areas-atuacao > a:hover {
   transition: 0.3s;
   background: var(--cor-p5);
+}
+
+.objetivo {
+  margin-top: 3rem;
 }
 @media (max-width: 1000px) {
   .titulo-detalhe {

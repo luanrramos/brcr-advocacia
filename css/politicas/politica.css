@@ -1,0 +1,37 @@
+.politica {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.politica h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.politica p + h2 {
+  margin-top: 40px;
+}
+.politica p {
+  max-width: 75ch;
+  margin-bottom: 24px;
+}
+
+.politica ul {
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+
+.politica ul li {
+  list-style: disc;
+  margin-bottom: 8px;
+}
+
+.politica li {
+  margin-top: 10px;
+}
+
+.politica h2 ::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+}

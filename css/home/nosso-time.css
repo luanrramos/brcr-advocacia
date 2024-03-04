@@ -1,8 +1,8 @@
 .nosso-time {
-  text-align: center;
-  padding: 80px 0;
+  padding: 40px 0;
   background: url(../../img/decoracoes/top-left-p.svg) no-repeat top 100px left
     100px;
+  display: grid;
 }
 .nosso-time h2 {
   display: inline-block;
@@ -10,13 +10,16 @@
   margin-bottom: 30px;
 }
 
+.nosso-time > a {
+  place-self: center;
+}
 .nosso-time-carrossel {
   padding: 60px;
   display: flex;
   gap: 48px;
   position: relative;
-  /* overflow-x: auto; */
   overflow-y: hidden;
+  text-align: center;
 }
 .nosso-time-carrossel-img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0));
@@ -105,6 +108,9 @@
 }
 
 @media (max-width: 600px) {
+  .nosso-time {
+    /* padding: 0px 0; */
+  }
   .nosso-time-carrossel-img .link {
     color: var(--cor-0);
     padding: 8px 16px;
@@ -142,21 +148,10 @@
     );
   }
   .nosso-time {
-    padding: 60px 0;
+    padding-top: 0px;
+    padding-bottom: 1rem;
   }
   .nosso-time h2 {
     margin-bottom: 0px;
-  }
-}
-
-@media (max-width: 350px) {
-  .nosso-time h2 {
-    text-decoration: underline;
-  }
-  .nosso-time h2::before {
-    display: none;
-  }
-  .nosso-time h2::after {
-    display: none;
   }
 }

@@ -15,7 +15,7 @@ footer {
   gap: 3rem;
 }
 .footer img {
-  max-width: 120px;
+  max-width: 200px;
 }
 .footer-conteudo {
   display: flex;
@@ -104,7 +104,7 @@ footer {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .footer {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -116,6 +116,9 @@ footer {
   .footer-mapa {
     display: none;
   }
+  .footer img {
+    align-self: center;
+  }
 }
 
 @media (max-width: 300px) {
@@ -126,7 +129,7 @@ footer {
     grid-template-columns: 1fr;
   }
   .footer img {
-    max-width: 80px;
+    max-width: 150px;
   }
   .footer-logomarca > p {
     display: none;

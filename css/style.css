@@ -40,3 +40,7 @@
 /* Contato */
 @import "./contato/contato.css";
 @import "./contato/locais.css";
+
+/* Termos e Condições e Políticas de Privacidade */
+@import "./termos/termos.css";
+@import "./politicas/politica.css";

@@ -189,6 +189,26 @@
   background-color: #0c141b;
 }
 
+.container-termos {
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#white-bg {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--background);
+}
+
+#padding-0 {
+  padding-top: 60px;
+  background-color: var(--background);
+  padding-bottom: 0px;
+}
 @media (max-width: 1200px) {
   .botao img {
     max-width: 1.5rem;
@@ -199,6 +219,10 @@
 }
 @media (max-width: 800px) {
   .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #white-bg {
     padding-top: 40px;
     padding-bottom: 40px;
   }

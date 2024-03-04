@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 60px;
-  text-align: start;
+  justify-content: start;
 }
 .contato-bg {
   background: url("../../img/contato/contato-bg.png") center center no-repeat;
@@ -23,7 +23,6 @@
   background-color: rgba(21, 38, 64, 0.85);
 }
 .contato-informacao {
-  margin-top: 60px;
   padding-left: 50px;
   z-index: 1;
 }
@@ -72,7 +71,6 @@
 
 .contato-informacao a {
   margin-top: 200px;
-  text-transform: uppercase;
   max-width: 100%;
 }
 
@@ -81,6 +79,7 @@
   padding: 40px;
   z-index: 1;
 }
+
 .contato-abaixo {
   display: none;
 }
