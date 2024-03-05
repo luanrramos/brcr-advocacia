@@ -3,6 +3,7 @@
   background: url(../../img/decoracoes/bottom-left.svg) no-repeat bottom left
     1rem;
   position: relative;
+  margin-bottom: 4rem;
 }
 .quemsomos h2 {
   display: inline-block;
@@ -16,8 +17,12 @@
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   gap: 40px;
+  place-content: center;
 }
-
+.quemsomos-conteudo > h3 {
+  grid-row: 1 / 2;
+  place-self: center;
+}
 .quemsomos-conteudo img {
   width: 100%;
   grid-column: 2;
@@ -71,6 +76,9 @@
 }
 
 @media (max-width: 600px) {
+  .quemsomos {
+    margin-bottom: 1rem;
+  }
   .quemsomos-bg {
     padding-top: 0px;
   }
@@ -89,7 +97,7 @@
     padding-left: 0px;
     padding-right: 0px;
   }
-  .quemsomos h3,
+
   .quemsomos p {
     padding-left: 20px;
     padding-right: 20px;

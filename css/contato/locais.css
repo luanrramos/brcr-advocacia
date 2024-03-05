@@ -64,9 +64,6 @@
   .escritorio h2 {
     font-size: 36px;
   }
-}
-
-@media (max-width: 600px) {
   .escritorio {
     grid-template-columns: 1fr;
     margin: 90px 0;

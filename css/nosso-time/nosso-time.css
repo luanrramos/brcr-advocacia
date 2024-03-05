@@ -1,7 +1,4 @@
-.titulo {
-  background: url("../../img/decoracoes/top-right.svg") no-repeat top 40px right
-    20px;
-}
+
 
 .titulo p {
   margin-bottom: 4px;
@@ -120,9 +117,6 @@
   .titulo-bg {
     padding-top: 40px;
     padding-bottom: 40px;
-    .titulo {
-      background: none;
-    }
   }
   .titulo p {
     font-size: 1rem;

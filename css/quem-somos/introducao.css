@@ -21,7 +21,9 @@
   text-align: center;
   position: relative;
 }
-
+.introducao-quem-somos h1 {
+  font-size: 80px;
+}
 .introducao-quem-somos-titulo {
   text-align: center;
   position: relative;
@@ -40,24 +42,32 @@
     text-align: start;
     margin: 120px 120px;
   }
+  .introducao-quem-somos h1 {
+    font-size: 64px;
+  }
 }
 @media (max-width: 800px) {
   .introducao-quem-somos-titulo {
     margin: 50px 50px;
+  }
+  .introducao-quem-somos h1 {
+    font-size: 48px;
   }
 }
 @media (max-width: 600px) {
   .introducao-quem-somos {
     padding: 20px 0px;
   }
-
+  .introducao-quem-somos h1 {
+    font-size: 32px;
+  }
   .introducao-quem-somos-titulo {
     margin: 40px 0px;
   }
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   .introducao-quem-somos-titulo {
     margin: 0px 0px;
   }
-}
+} */

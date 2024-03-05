@@ -120,7 +120,14 @@ footer {
     align-self: center;
   }
 }
-
+@media (max-width: 360px) {
+  .footer-contato span {
+    display: none;
+  }
+  .footer-copy {
+    display: none;
+  }
+}
 @media (max-width: 300px) {
   .whatsapp-fixado {
     display: none;

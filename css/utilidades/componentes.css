@@ -163,25 +163,6 @@
   margin-bottom: 90px;
 }
 
-.detalhe-subtitulo h2::after {
-  content: "";
-  right: 0;
-  top: 105%;
-  width: 50%;
-  height: 2px;
-  position: absolute;
-  background-color: var(--cor-p5);
-}
-.detalhe-subtitulo h2::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 50%;
-  bottom: 105%;
-  height: 2px;
-  background-color: var(--cor-p5);
-}
-
 /* Título interno */
 .titulo-bg {
   padding-top: 60px;
@@ -208,6 +189,11 @@
   padding-top: 60px;
   background-color: var(--background);
   padding-bottom: 0px;
+}
+
+.titulo {
+  background: url("../../img/decoracoes/top-right.svg") no-repeat top 40px right
+    20px;
 }
 @media (max-width: 1200px) {
   .botao img {

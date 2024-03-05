@@ -152,3 +152,9 @@
     margin-bottom: 20px;
   }
 }
+
+@media (max-width: 340px) {
+  .contato-icone span {
+    display: none;
+  }
+}
