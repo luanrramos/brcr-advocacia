@@ -26,6 +26,7 @@
 
 /* Áreas de Atuação */
 @import "./areas-de-atuacao/areas.css";
+@import "./areas-de-atuacao/area-especifica.css";
 
 /* Artigos */
 @import "./artigo/conteudo-p1.css";

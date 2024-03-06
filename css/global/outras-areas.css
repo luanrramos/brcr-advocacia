@@ -9,14 +9,6 @@
   display: block;
   position: relative;
 }
-.outras-areas h2:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background-color: var(--cor-p5);
-}
 
 .outras-areas-conteudo {
   margin-top: 3rem;

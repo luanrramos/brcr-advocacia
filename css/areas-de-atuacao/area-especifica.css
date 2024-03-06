@@ -1,0 +1,80 @@
+.area-especifica-introducao {
+  margin: 80px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+.area-especifica-introducao div {
+  display: grid;
+}
+.area-especifica-introducao h2 {
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.area-especifica-introducao h2::before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url("../../img/decoracoes/risco.svg") no-repeat center;
+  position: absolute;
+  top: -60px;
+  left: -90px;
+  z-index: -1;
+}
+
+.area-especifica-introducao > img {
+  border-radius: 1rem;
+}
+
+.area-especifica-introducao div > p {
+  margin-bottom: 2rem;
+}
+
+.area-especifica-introducao-contato {
+  display: flex;
+  gap: 3rem;
+}
+
+.area-especifica-introducao-contato img {
+  width: 32px;
+  height: 32px;
+}
+
+.area-especifica-introducao-contato li a {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.5rem;
+}
+
+.area-especifica-introducao-contato a span {
+  align-self: center;
+}
+
+.area-especifica-introducao-contato a p {
+  grid-column: 2;
+}
+
+@media (max-width: 1200px) {
+  .area-especifica-introducao {
+    grid-template-columns: 1fr;
+  }
+  .area-especifica-introducao h2::before {
+    background: url("../../img/decoracoes/risco-mobile.svg") no-repeat center;
+    top: -80px;
+    left: -55px;
+  }
+}
+
+@media (max-width: 600px) {
+  .area-especifica-introducao {
+    margin: 40px auto;
+  }
+  .area-especifica-introducao h2::before {
+    top: -70px;
+    left: -55px;
+  }
+}

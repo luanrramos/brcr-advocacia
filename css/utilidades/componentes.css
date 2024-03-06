@@ -190,7 +190,14 @@
   background-color: var(--background);
   padding-bottom: 0px;
 }
+.margin-60 {
+  margin-top: 140px;
+  margin-bottom: 60px;
+}
 
+.maiusculo li > span {
+  text-transform: uppercase;
+}
 .titulo {
   background: url("../../img/decoracoes/top-right.svg") no-repeat top 40px right
     20px;
@@ -233,6 +240,10 @@
 @media (max-width: 600px) {
   .recuo {
     text-indent: 1em;
+  }
+  .margin-60 {
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 

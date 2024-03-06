@@ -66,7 +66,9 @@
   font-weight: 400;
   line-height: normal;
 }
-
+.font-3-xl {
+  font: 500 1.5rem/1.25 "Antic Didone", sans-serif;
+}
 .font-2-l {
   font-family: "Poppins";
   font-size: 24px;
@@ -93,7 +95,8 @@
     font-size: 1.5rem;
   }
   .font-1-xl,
-  .font-2-xl {
+  .font-2-xl,
+  .font-3-xl {
     font-size: 2rem;
   }
   .font-1-l {
@@ -141,7 +144,8 @@
 
   .font-1-m-b {
   }
-  .font-2-xl {
+  .font-2-xl,
+  .font-3-xl {
     font-size: 1.125rem;
   }
   .font-1-xl {
