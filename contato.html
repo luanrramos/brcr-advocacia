@@ -69,7 +69,7 @@
     <main class="contato container">
       <div class="contato-informacao">
         <p class="font-1-m cor-4">
-          ENTRE EM CONTATO CONOSCO
+          FALE CONOSCO
         </p>
         <h1 class=" font-3-xxl cor-p5">contato<span class="cor-0">.</span></h1>
 
@@ -94,14 +94,14 @@
       </div>
 
       <div class="contato-formulario">
-        <form class="form" action="contato.html">
+        <form class="form" action="enviar.php" method="post">
           <div class="col-2">
             <label for="Nome">Nome</label>
             <input type="text" name="nome" id="nome" placeholder="Seu nome" />
             <label for="telefone">Telefone</label>
             <input type="text" name="telefone" id="telefone" placeholder="Digite o número de telefone" />
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="Digite o número de email" />
+            <input type="email" name="email" id="email" placeholder="Digite o número de email" required />
             <label for="mensagem">Mensagem</label>
             <textarea rows="5" name="mensagem" id="mensagem" placeholder="O que você precisa?"></textarea>
           </div>
@@ -225,6 +225,7 @@
 
   <script src="./js/simple-anime.js"></script>
   <script src="./js/script.js"></script>
+  <script src="./js/formulario.js"></script>
 </body>
 
 </html>

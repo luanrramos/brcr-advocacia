@@ -20,6 +20,7 @@
 @import "home/nossos-escritorios.css";
 @import "home/nossos-artigos.css";
 @import "home/contato-home.css";
+@import "home/card1.css";
 
 /* Nosso time */
 @import "nosso-time/nosso-time.css";
@@ -27,6 +28,7 @@
 /* Áreas de Atuação */
 @import "./areas-de-atuacao/areas.css";
 @import "./areas-de-atuacao/area-especifica.css";
+@import "./areas-de-atuacao/card2.css";
 
 /* Artigos */
 @import "./artigo/conteudo-p1.css";

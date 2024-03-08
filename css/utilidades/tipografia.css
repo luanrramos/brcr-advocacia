@@ -132,7 +132,7 @@
     font: 600 1.5rem/1.5 "Poppins", sans-serif;
   }
   .font-3-xxl {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .font-1-xxl {
@@ -142,8 +142,6 @@
     font-size: 1rem;
   }
 
-  .font-1-m-b {
-  }
   .font-2-xl,
   .font-3-xl {
     font-size: 1.125rem;

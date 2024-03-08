@@ -20,6 +20,7 @@
   z-index: 1;
   display: grid;
   gap: 40px;
+  margin-top: 4rem;
 }
 
 .areas-atuacao ul {

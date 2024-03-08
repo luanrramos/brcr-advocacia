@@ -17,3 +17,9 @@
     position: relative;
   }
 }
+
+@media (max-width: 370px) {
+  .contato-informacao > p {
+    font-size: 1rem;
+  }
+}
