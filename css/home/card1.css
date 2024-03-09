@@ -1,34 +1,39 @@
-.details{
+.details {
   margin: 20px 0;
-  background:url(/img/atuacao/unsplash_b5oSSFUNCHI.png) no-repeat center center/cover;
+  background: url(../../img/atuacao/unsplash_b5oSSFUNCHI.png) no-repeat center
+    center/cover;
   padding: 30px 20px;
   position: relative;
   z-index: 1;
-  border-radius: 4px; 
-  
+  border-radius: 4px;
 }
 
- .dois{
-background: url(/img/atuacao/Advogado-previdenciario-1-1024x576.jpg) no-repeat center center/cover;
+.dois {
+  background: url(../../img/atuacao/Advogado-previdenciario-1-1024x576.jpg)
+    no-repeat center center/cover;
 }
 
-  .tres{
-background: url(/img/atuacao/Rectangle\ 13.png) no-repeat center center/cover;
-  }
+.tres {
+  background: url(../../img/atuacao/Rectangle\ 13.png) no-repeat center
+    center/cover;
+}
 
-  .quatro{
-background: url(/img/atuacao/etienne-martin-2_K82gx9Uk8-unsplash.jpg) no-repeat center center/cover;
-  }
+.quatro {
+  background: url(../../img/atuacao/etienne-martin-2_K82gx9Uk8-unsplash.jpg)
+    no-repeat center center/cover;
+}
 
-  .seis{
-background: url(/img/atuacao/phillip-goldsberry-kwqJwtlb0KU-unsplash.jpg) no-repeat center center/cover;
-  }
+.seis {
+  background: url(../../img/atuacao/phillip-goldsberry-kwqJwtlb0KU-unsplash.jpg)
+    no-repeat center center/cover;
+}
 
-  .cinco{
-background: url(/img/atuacao/tara-clark-Gk8LG7dsHWA-unsplash.jpg) no-repeat center center/cover;
-  }
+.cinco {
+  background: url(../../img/atuacao/tara-clark-Gk8LG7dsHWA-unsplash.jpg)
+    no-repeat center center/cover;
+}
 
-.details h2{
+.details h2 {
   font-size: 22px;
   text-transform: uppercase;
   transition: 0.6s all;
@@ -36,33 +41,31 @@ background: url(/img/atuacao/tara-clark-Gk8LG7dsHWA-unsplash.jpg) no-repeat cent
   margin-bottom: 20px;
 }
 
-.details:hover h2{
+.details:hover h2 {
   color: #152640;
   transition: 0.6s all;
 }
 
-.details p{
+.details p {
   font-size: 16px;
   color: transparent;
   transition: 0.6s all;
   margin-bottom: 20px;
-  
 }
 
-.details a{
+.details a {
   text-decoration: none;
   text-transform: capitalize;
   background: transparent;
   color: transparent;
-  
+
   font-size: 14px;
   padding: 6px 12px;
   display: inline-block;
   border: 1px solid transparent;
-
 }
 
-.details:hover a{
+.details:hover a {
   text-decoration: none;
   text-transform: capitalize;
   border-radius: 4px;
@@ -72,10 +75,9 @@ background: url(/img/atuacao/tara-clark-Gk8LG7dsHWA-unsplash.jpg) no-repeat cent
   display: inline-block;
   border: 1px solid #152640;
   transition: 2s all;
- 
 }
 
-.details::before{
+.details::before {
   content: "";
   width: 5px;
   height: 100%;
@@ -86,15 +88,14 @@ background: url(/img/atuacao/tara-clark-Gk8LG7dsHWA-unsplash.jpg) no-repeat cent
   top: 0;
   z-index: -1;
   transition: 0.6s all;
-  border: radius 4px; ;
+  border: radius 4px;
 }
 
-.details:hover::before{
+.details:hover::before {
   width: 100%;
   transition: 0.6s all;
 }
 
-.details:hover p{
+.details:hover p {
   color: #152640;
-  
 }
