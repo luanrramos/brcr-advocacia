@@ -24,22 +24,38 @@
   </a>
 
   <!-- bg = background -->
-  <div class="main-bg">
-    <header class="header container nav-bar">
+  <div class=" main-bg">
+    <header id="scrollar" class="header container">
       <a href="./">
         <img class="fadeInDown" width="693px" height="360px" src="img/logos/logo-header-white.png" alt="Logo BRCR">
 
       </a>
-      <div aria-label="primária" class="nav-list">
-        <ul class="fadeInLeft">
-          <li class="nav-item"><a class="font-1-m ativo" href="./">Página Inicial</a></li>
-          <li class="nav-item"><a class="font-1-m cor-0" href="quem-somos.html">Quem Somos</a></li>
-          <li class="nav-item"><a class="font-1-m cor-0" href="areas-de-atuacao.html">Áreas de Atuação</a></li>
-          <li class="nav-item"><a class="font-1-m cor-0" href="nosso-time.html">Nosso Time</a></li>
+      <div>
+        <div class="navigation-desktop">
 
-          <li class="nav-item"><a class="font-1-s cor-0" href="contato.html">Contato</a></li>
-        </ul>
+          <button aria-label="Primária" class=" hamburger-desktop" onclick="showS()">
+            <div id="bar-desktop0" class="bar-desktop"></div>
+            <div id="bar-desktop1" class="bar-desktop"></div>
+            <div id="bar-desktop2" class="bar-desktop"></div>
+            <div id="bar-desktop3" class="bar-desktop"></div>
+          </button>
+
+          <nav>
+            <ul class="cor-background">
+              <li><a class="font-2-s ativo" href="./">Página Inicial</a></li>
+              <li><a class="font-2-s " href="quem-somos.html">Quem Somos</a></li>
+              <li><a class="font-2-s" href="areas-de-atuacao.html">Áreas de Atuação</a></li>
+              <li><a class="font-2-s" href="nosso-time.html">Nosso Time</a></li>
+              <li><a class="font-2-s" href="contato.html">Contato</a></li>
+              <li><a class=" font-2-s " href=" politicas.html">Políticas de Privacidade</a></li>
+
+            </ul>
+          </nav>
+
+        </div>
       </div>
+
+
       <div class="navigation">
         <button aria-label="Primária" class="hamburger" onclick="show()">
           <div id="bar0" class="bar"></div>
@@ -375,7 +391,7 @@
             <label for="telefone">Telefone</label>
             <input type="text" name="telefone" id="telefone" placeholder="Digite o número de telefone" />
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="Digite o número de email" required/>
+            <input type="email" name="email" id="email" placeholder="Digite o número de email" required />
             <label for="mensagem">Mensagem</label>
             <textarea rows="5" name="mensagem" id="mensagem" placeholder="O que você precisa?"></textarea>
           </div>

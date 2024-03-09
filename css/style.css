@@ -6,6 +6,10 @@
 @import "global/outras-areas.css";
 @import "global/animations.css";
 
+/* Menus hamburgueres */
+@import "global/menu-mobile.css";
+@import "global/menu-desktop.css";
+
 /* Utilidades */
 @import "./utilidades/componentes.css";
 @import "./utilidades/cores.css";

@@ -1,4 +1,9 @@
 // Função - menu hambúrguer e sombra no body
+function showS() {
+  document.querySelector(".hamburger-desktop").classList.toggle("open");
+  document.querySelector(".navigation-desktop").classList.toggle("active");
+  var body = document.querySelector("body");
+}
 function show() {
   document.querySelector(".hamburger").classList.toggle("open");
   document.querySelector(".navigation").classList.toggle("active");
@@ -37,3 +42,13 @@ if (window.SimpleAnime) {
   new SimpleAnime();
 }
 
+// Transição - Header
+document.addEventListener("scroll", function (event) {
+  var scrollar = document.scrollingElement.scrollTop;
+  if (scrollar > 60) {
+    document.getElementById("scrollar").classList.add("active");
+  } else {
+    //remove the background property so it comes transparent again (defined in your css)
+    document.getElementById("scrollar").classList.remove("active");
+  }
+});
