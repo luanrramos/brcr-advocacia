@@ -20,66 +20,69 @@
   <!-- Ícone fixo -->
   <a class="whatsapp-fixado" href="contato.html">
     <p class="font-1-s cor-0">Vamos conversar</p>
-    <img width="64px" height="64px" src="img/icones/green-whats.svg" alt="Nosso WhatsApp" />
+    <img id="ts" width="64px" height="64px" src="img/icones/green-whats.svg" alt="Nosso WhatsApp" />
   </a>
 
   <!-- bg = background -->
 
-  <div class=" main-bg">
-    <header id="scrollar" class="header container">
-      <a href="./">
-        <img class="fadeInDown" width="693px" height="360px" src="img/logos/logo-header-white.png" alt="Logo BRCR">
 
-      </a>
-      <div>
-        <div class="navigation-desktop">
+  <header id="scrollar" class="header header-bg-white relative container">
+    <div id="menu-invisivel"></div>
+    <a id="z-index-img" href="./">
+      <img class="troca-de-img-1" width="693px" height="360px" src="img/logos/logo-header.png" alt="Logo BRCR">
+      <img class="troca-de-img-2" width="693px" height="360px" src="img/logos/logo-header-white.png" alt="Logo BRCR">
 
-          <button aria-label="Primária" class=" hamburger-desktop" onclick="showS()">
-            <div id="bar-desktop0" class="bar-desktop"></div>
-            <div id="bar-desktop1" class="bar-desktop"></div>
-            <div id="bar-desktop2" class="bar-desktop"></div>
-            <div id="bar-desktop3" class="bar-desktop"></div>
-          </button>
+    </a>
+    <div class="navigation-desktop">
 
-          <nav>
-            <ul class="cor-background">
-              <li><a class="font-2-s ativo" href="./">Página Inicial</a></li>
-              <li><a class="font-2-s " href="quem-somos.html">Quem Somos</a></li>
-              <li><a class="font-2-s" href="areas-de-atuacao.html">Áreas de Atuação</a></li>
-              <li><a class="font-2-s" href="nosso-time.html">Nosso Time</a></li>
-              <li><a class="font-2-s" href="contato.html">Contato</a></li>
-              <li><a class=" font-2-s " href=" politicas.html">Políticas de Privacidade</a></li>
+      <button aria-label="Primária" class=" hamburger-desktop" onclick="showS()">
+        <div id="azul0" class="bar-desktop azul"></div>
+        <div id="azul1" class="bar-desktop azul "></div>
+        <div id="azul2" class="bar-desktop azul"></div>
+        <div id="azul3" class="bar-desktop azul"></div>
+      </button>
 
-            </ul>
-          </nav>
+      <nav>
+        <ul class="cor-background">
+          <li><a class="font-2-s ativo" href="./">Página Inicial</a></li>
+          <li><a class="font-2-s " href="quem-somos.html">Quem Somos</a></li>
+          <li><a class="font-2-s" href="areas-de-atuacao.html">Áreas de Atuação</a></li>
+          <li><a class="font-2-s" href="nosso-time.html">Nosso Time</a></li>
+          <li><a class="font-2-s" href="contato.html">Contato</a></li>
+          <li><a class=" font-2-s " href=" politicas.html">Políticas de Privacidade</a></li>
 
-        </div>
-      </div>
+        </ul>
+      </nav>
+
+    </div>
 
 
-      <div class="navigation">
-        <button aria-label="Primária" class="hamburger" onclick="show()">
-          <div id="bar0" class="bar"></div>
-          <div id="bar1" class="bar"></div>
-          <div id="bar2" class="bar"></div>
-          <div id="bar3" class="bar"></div>
-        </button>
+    <div class="navigation">
+      <button aria-label="Primária" class="hamburger" onclick="show()">
+        <div id="tes0" class="bar"></div>
+        <div id="tes1" class="bar"></div>
+        <div id="tes2" class="bar"></div>
+        <div id="tes3" class="bar"></div>
+      </button>
 
-        <nav>
-          <ul>
-            <li><a class="font-2-s ativo" href="./">Página Inicial</a></li>
-            <li><a class="font-2-s " href="quem-somos.html">Quem Somos</a></li>
-            <li><a class="font-2-s" href="areas-de-atuacao.html">Áreas de Atuação</a></li>
-            <li><a class="font-2-s" href="nosso-time.html">Nosso Time</a></li>
-            <li><a class="font-2-s" href="contato.html">Contato</a></li>
-          </ul>
-          <a width="32px" height="32px" class="navigation-politicas font-2-l-b botao" href="politicas.html">Políticas de Privacidade <img src="img/icones/politicas.svg" alt="Políticas de Privacidade"></a>
+      <nav>
+        <ul>
+          <li><a class="font-2-s ativo" href="./">Página Inicial</a></li>
+          <li><a class="font-2-s cor-background" href="quem-somos.html">Quem Somos</a></li>
+          <li><a class="font-2-s cor-background" href="areas-de-atuacao.html">Áreas de Atuação</a></li>
+          <li><a class="font-2-s cor-background" href="nosso-time.html">Nosso Time</a></li>
+          <li><a class="font-2-s cor-background" href="contato.html">Contato</a></li>
+        </ul>
+        <a width="32px" height="32px" class="navigation-politicas font-2-l-b botao cor-azul-escuro" href="politicas.html">Políticas de Privacidade <img src="img/icones/politicas.svg" alt="Políticas de Privacidade"></a>
 
-        </nav>
-      </div>
-    </header>
-   
-  </div>
+      </nav>
+    </div>
+    <div>
+      <a id="contato-header" href="contato.html" class="botao cor-azul-escuro contato-header">Fale Conosco</a>
+    </div>
+  </header>
+
+
 
   <main>
     <div class="titulo-bg">
@@ -105,7 +108,10 @@
             668549165/"><img src="img/nosso-time/icones-pretos/LinkedIn.svg" alt="Ícone - Linkedin"></a>
           </div>
         </div>
-        <p class="font-2-s cor-8 fadeInLeft">Advogada apaixonada pela justiça. Graduada em Direito pela Unifacisa. Especialista em Direito Civil. Comprometida, ética e dedicada aos direitos dos clientes. </p>
+        <p class="font-2-s cor-8 fadeInLeft">Advogada. Recebeu o certificado de Láurea acadêmica: desempenho
+          excepcional no curso de Direito. Sócia do Batista, Ramos, Câmara e
+          Ribeiro Sociedade de Advogados. Atuação exclusiva no Direito
+          Previdenciário. Previdenciarista por vocação. </p>
         <ul class="font-1-m cor-8">
           <li>
             <img src="./img/icones/livro-de-capa-preta-fechado-1.svg" alt="Ícone - Direito Previdenciário">
@@ -124,7 +130,7 @@
             Família
           </li>
         </ul>
-        <a class="botao seta pdf" href="#download">Salvar</a>
+        <a class="botao seta pdf" href="cartoes-virtuais/mayra-ribeiro.pdf" download="Mayra Ribeiro">Salvar</a>
       </div>
     </div>
 
@@ -141,7 +147,12 @@
               <a href="https://www.linkedin.com/in/felipebramos/"><img src="img/nosso-time/icones-brancos/LinkedIn.svg" alt="Ícone - Linkedin"></a>
             </div>
           </div>
-          <p class="font-2-s cor-3 slideInLeft">Advogado apaixonado pela justiça. Graduado em Direito pela Unifacisa. Especialista em Direito Civil. Comprometido, ético e dedicado aos direitos dos clientes. </p>
+          <p class="font-2-s cor-3 slideInLeft">Advogado. Sócio fundador do BRCR. Pós-graduando em Advocacia
+            Cível. Pós-graduando em Direito de Família e Sucessões.
+            <br>
+            Atua em Direito civil, família, sucessões, bancário rural e estruturação de
+            negócios.
+          </p>
           <ul class="font-1-m cor-3 slideInLeft">
             <li>
               <img src="./img/icones/livro-de-capa-branca-fechado.svg" alt="Ícone - Direito Previdenciário">
@@ -160,7 +171,7 @@
               Família
             </li>
           </ul>
-          <a class="botao seta pdf btnLeft" href="#download">Salvar</a>
+          <a class="botao seta pdf btnLeft" href="cartoes-virtuais/felipe-ramos-.pdf" download="Felipe Ramos">Salvar</a>
         </div>
       </div>
     </div>
@@ -177,7 +188,9 @@
             <a href="https://www.linkedin.com/in/francian-batista-7541411aa/"><img src="img/nosso-time/icones-pretos/LinkedIn.svg" alt="Ícone - Linkedin"></a>
           </div>
         </div>
-        <p class="font-2-s cor-8 slideInLeft">Sócio fundador e diretor do Batista, Ramos, Câmara e Ribeiro Sociedade de Advogados. Especialista em direito do trabalho. Atuação voltada para a estruturação e compliance de empresas.</p>
+        <p class="font-2-s cor-8 slideInLeft">Sócio fundador e diretor do Batista, Ramos, Câmara e Ribeiro Sociedade
+          de Advogados. Especialista em direito do trabalho. Atuação voltada para
+          a estruturação e compliance de empresas.</p>
         <ul class="font-1-m cor-8 slideInLeft">
           <li>
             <img src="./img/icones/livro-de-capa-preta-fechado-1.svg" alt="Ícone - Direito Previdenciário">
@@ -196,7 +209,7 @@
             Família
           </li>
         </ul>
-        <a class="botao seta pdf btnLeft" href="#download">Salvar</a>
+        <a class="botao seta pdf btnLeft" href="cartoes-virtuais/francian-batista.pdf" download="Francian Batista">Salvar</a>
       </div>
     </div>
 
@@ -213,7 +226,10 @@
               <a href="https://www.instagram.com/advthiagocamara/"><img src="img/nosso-time/icones-brancos/LinkedIn.svg" alt="Ícone - Linkedin"></a>
             </div>
           </div>
-          <p class="font-2-s cor-3 slideInLeft">Advogado Graduado em Direito pela Unifacisa. Com foco na expertise em leis trabalhistas e uma abordagem humanizada centrada no cliente, sua missão é garantir que seus direitos sejam respeitados e que você tenha uma jornada de trabalho justa e equitativa. </p>
+          <p class="font-2-s cor-3 slideInLeft">Advogado Graduado em Direito pela Unifacisa. Com foco na expertise em
+            leis trabalhistas e uma abordagem humanizada centrada no cliente, sua
+            missão é garantir que seus direitos sejam respeitados e que você tenha
+            uma jornada de trabalho justa e equitativa. </p>
           <ul class="font-1-m cor-3 slideInLeft">
             <li>
               <img src="./img/icones/livro-de-capa-branca-fechado.svg" alt="Ícone - Direito Previdenciário">
@@ -232,7 +248,7 @@
               Família
             </li>
           </ul>
-          <a class="botao seta pdf btnLeft" href="#download">Salvar</a>
+          <a class="botao seta pdf btnLeft" href="cartoes-virtuais/thiago-camara.pdf" download="Thiago Câmara">Salvar</a>
         </div>
       </div>
     </div>
@@ -337,9 +353,10 @@
 
     </div>
   </footer>
-  <script src="./js/simple-anime.js"></script>
   <script src="./js/script.js"></script>
   <script src="./js/script-saiba-animation.js"></script>
+  <script src="./js/simple-anime.js"></script>
+
 
 </body>
 

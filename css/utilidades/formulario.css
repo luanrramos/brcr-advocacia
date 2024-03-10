@@ -61,7 +61,6 @@
     padding: 30px;
     padding-bottom: 60px;
     width: 280px;
-    height: 450px;
   }
 
   .form {
@@ -96,13 +95,6 @@
 @media (max-width: 400px) {
   .contato-formulario {
     max-width: auto;
-    width: 220px;
-  }
-  .form {
-    gap: 12px;
-  }
-
-  .form label {
-    margin-bottom: 4px;
+    /* width: 220px; */
   }
 }

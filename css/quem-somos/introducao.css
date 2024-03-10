@@ -4,7 +4,10 @@
   background-position: top;
   position: relative;
 }
-
+.header.active {
+  position: fixed;
+  width: 100%;
+}
 .quem-somos-bg::after {
   content: "";
   top: 0;

@@ -1,19 +1,17 @@
 .navigation-desktop {
   position: fixed;
   left: -300px;
-  width: 280px;
-  top: 150px;
-  left: -500px;
-  height: 50%;
-  background-color: var(--background);
+  width: 0px;
+  top: 136px;
+  left: 200px;
+  height: 430px;
   border-radius: 5px;
   transition: 0.5s;
-  z-index: 0;
 }
 .navigation-desktop.active {
   width: 340px;
   right: 0;
-  top: 120px;
+  top: 136px;
   left: 200px;
   background-color: var(--azul-escuro);
 }
@@ -23,11 +21,11 @@
   top: 1rem;
   right: 20px;
   width: 300px;
+  transition: 0.5s;
+  display: none;
 }
-
-.navigation-desktop nav > a {
-  position: fixed;
-  top: 90%;
+.navigation-desktop.active nav {
+  display: block;
 }
 
 .navigation-desktop ul li {
@@ -51,7 +49,9 @@
   height: 3px;
   transition: all 0.3s ease-in;
 }
-
+#ad {
+  position: relative;
+}
 #bar-desktop0 {
   background-color: transparent;
   width: 4rem;

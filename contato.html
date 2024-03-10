@@ -16,7 +16,108 @@
 </head>
 
 <body>
-  <div class="contato-bg" id="home">
+  <div class="contato-bg">
+    <header id="scrollar" class="header relative container">
+      <div id="menu-invisivel"></div>
+      <a id="z-index-img" href="./">
+        <img class="fadeInDown" width="693px" height="360px" src="img/logos/logo-header-white.png" alt="Logo BRCR">
+
+      </a>
+      <div class="navigation-desktop">
+
+        <button aria-label="Primária" class=" hamburger-desktop" onclick="showS()">
+          <div id="bar-desktop0" class="bar-desktop"></div>
+          <div id="bar-desktop1" class="bar-desktop"></div>
+          <div id="bar-desktop2" class="bar-desktop"></div>
+          <div id="bar-desktop3" class="bar-desktop"></div>
+        </button>
+
+        <nav>
+          <ul class="cor-background">
+            <li><a class="font-2-s ativo" href="./">Página Inicial</a></li>
+            <li><a class="font-2-s " href="quem-somos.html">Quem Somos</a></li>
+            <li><a class="font-2-s" href="areas-de-atuacao.html">Áreas de Atuação</a></li>
+            <li><a class="font-2-s" href="nosso-time.html">Nosso Time</a></li>
+            <li><a class="font-2-s" href="contato.html">Contato</a></li>
+            <li><a class=" font-2-s " href=" politicas.html">Políticas de Privacidade</a></li>
+
+          </ul>
+        </nav>
+
+      </div>
+
+
+      <div class="navigation">
+        <button aria-label="Primária" class="hamburger" onclick="show()">
+          <div id="bar0" class="bar"></div>
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </button>
+
+        <nav>
+          <ul>
+            <li><a class="font-2-s ativo" href="./">Página Inicial</a></li>
+            <li><a class="font-2-s cor-background" href="quem-somos.html">Quem Somos</a></li>
+            <li><a class="font-2-s cor-background" href="areas-de-atuacao.html">Áreas de Atuação</a></li>
+            <li><a class="font-2-s cor-background" href="nosso-time.html">Nosso Time</a></li>
+            <li><a class="font-2-s cor-background" href="contato.html">Contato</a></li>
+          </ul>
+          <a width="32px" height="32px" class="navigation-politicas font-2-l-b botao cor-azul-escuro" href="politicas.html">Políticas de Privacidade <img src="img/icones/politicas.svg" alt="Políticas de Privacidade"></a>
+
+        </nav>
+      </div>
+      <div>
+        <a id="contato-header" href="contato.html" class="botao cor-azul-escuro contato-header">Fale Conosco</a>
+      </div>
+    </header>
+    <main class="contato container">
+      <div class="contato-informacao">
+        <p class="font-1-m cor-4">
+          FALE CONOSCO
+        </p>
+        <h1 class=" font-3-xxl cor-p5">contato<span class="cor-0">.</span></h1>
+
+
+        <p class="font-1-m cor-5" id="informacao-2">
+          Se preferir, nos envie uma mensagem por WhatsApp, e-mail ou ligue em
+          nosso contato fixo.
+        </p>
+
+        <div class="contato-icone">
+          <ul>
+            <li>
+              <a class="font-1-xs cor-0" href="mailto:contato.brcadvogados@gmail.com">
+                <img width="20px" height="15px" src="img/icones/gmail-icon.svg" alt="Email" />contato.brcadvogados@gmail.com</a>
+            </li>
+            <li>
+              <a class="font-1-xs cor-0" href="tel:981049965">
+                <img width="20px" height="20px" src="img/icones/white-phone.svg" alt="Telefone de contato" />(83) 98104-9965</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="contato-formulario">
+        <form class="form" action="enviar.php" method="post">
+          <div class="col-2">
+            <label for="Nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Seu nome" />
+            <label for="telefone">Telefone</label>
+            <input type="text" name="telefone" id="telefone" placeholder="Digite o número de telefone" />
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Digite o número de email" required />
+            <label for="mensagem">Mensagem</label>
+            <textarea rows="5" name="mensagem" id="mensagem" placeholder="O que você precisa?"></textarea>
+          </div>
+
+          <button class="botao-enviar col-2" type="submit">Enviar</button>
+        </form>
+      </div>
+    </main>
+
+  </div>
+  <!-- <div class="contato-bg" id="home">
     <header class="header container nav-bar">
       <a href="./">
         <img class="fadeInDown" width="693px" height="360px" src="img/logos/logo-header-white.png" alt="Logo BRCR" />
@@ -110,7 +211,7 @@
         </form>
       </div>
     </main>
-  </div>
+  </div> -->
 
   <article class="escritorio container">
     <h2 class="font-1-xxl cor-azul-escuro ">nossos escritórios<span class="cor-amarelo">.</span>

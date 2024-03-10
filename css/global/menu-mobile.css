@@ -1,14 +1,17 @@
 .navigation {
-  z-index: 10;
+  z-index: 3;
   position: fixed;
   right: -500px;
   width: 280px;
-  top: 10px;
+  top: 0px;
   height: 100%;
-  background-color: var(--background);
+  background-color: var(--azul-escuro);
   transition: 0.5s;
   display: none;
   border-radius: 5px;
+}
+#z-index-img {
+  z-index: 4;
 }
 .navigation nav {
   z-index: 10;
@@ -72,13 +75,32 @@
 #bar2 {
   top: 16px;
 }
+#tes0 {
+  background-color: transparent;
 
+  top: -4px;
+  height: 100%;
+  padding: 6px;
+  border-radius: 50%;
+  left: -54px;
+}
+#tes1 {
+  background-color: var(--azul-escuro);
+}
+#tes2 {
+  top: 16px;
+  background-color: var(--azul-escuro);
+}
+#tes3 {
+  top: 24px;
+  background-color: var(--azul-escuro);
+}
 #bar3 {
   top: 24px;
 }
 
 .hamburger.open #bar1 {
-  background-color: var(--azul-escuro);
+  background-color: var(--background);
   transform: rotate(45deg) translate(6px, 5px);
 }
 
@@ -87,7 +109,7 @@
 }
 
 .hamburger.open #bar3 {
-  background-color: var(--azul-escuro);
+  background-color: var(--background);
 
   transform: rotate(-45deg) translate(6px, -5px);
 }

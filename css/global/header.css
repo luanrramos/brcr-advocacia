@@ -1,6 +1,8 @@
 .header {
   display: flex;
   place-content: center;
+  align-items: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -8,6 +10,22 @@
   position: fixed;
 }
 
+/* Como o Menu hamburger está com position Fixed, ele não ocupa espaço no header para que o justify content funcione corretamente, então, para corrigir isto, cria-se um espaço invisível DENTRO DO HEADER para o justify content: space-evenly funcione corretamente para os 3 itens do header */
+#menu-invisivel {
+  width: 200px;
+  height: 100px;
+}
+
+.test {
+  position: relative;
+  transition: 0.5s;
+}
+
+.test.container.active {
+  transition: 0.5s;
+  width: 100%;
+  position: fixed;
+}
 .container.active {
   background: var(--azul-escuro);
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
@@ -27,4 +45,17 @@
 
 #scrollar {
   max-width: 100%;
+  transition: 0.75s;
+}
+
+@media (max-width: 1200px) {
+  .header {
+    justify-content: start;
+  }
+  #menu-invisivel {
+    display: none;
+  }
+  #contato-header {
+    display: none;
+  }
 }

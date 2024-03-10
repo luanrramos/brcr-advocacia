@@ -45,7 +45,7 @@ if (window.SimpleAnime) {
 // Transição - Header
 document.addEventListener("scroll", function (event) {
   var scrollar = document.scrollingElement.scrollTop;
-  if (scrollar > 60) {
+  if (scrollar > 120) {
     document.getElementById("scrollar").classList.add("active");
   } else {
     //remove the background property so it comes transparent again (defined in your css)

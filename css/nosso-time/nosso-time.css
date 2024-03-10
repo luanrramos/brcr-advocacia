@@ -1,14 +1,114 @@
+.relative {
+  position: relative;
+}
 
+.header-bg-white .troca-de-img-2 {
+  display: none;
+}
+.azul {
+  background-color: var(--azul-escuro);
+}
 
+#azul0 {
+  background-color: transparent;
+  width: 4rem;
+  top: 45px;
+  height: 4rem;
+  border-radius: 50%;
+  left: 300px;
+}
+#azul1 {
+  top: 67px;
+  left: 316px;
+}
+#azul2 {
+  top: 75px;
+  left: 316px;
+}
+#azul3 {
+  top: 83px;
+  left: 316px;
+}
+
+.hamburger-desktop.open #azul1 {
+  background-color: var(--azul-escuro);
+
+  transform: rotate(45deg) translate(3px, 8px);
+  left: 320px;
+}
+
+.hamburger-desktop.open #azul2 {
+  background-color: transparent;
+}
+
+.hamburger-desktop.open #azul3 {
+  background-color: var(--azul-escuro);
+  left: 320px;
+  transform: rotate(-45deg) translate(3px, -8px);
+}
+
+.header-bg-white.active {
+  position: fixed;
+  width: 100%;
+  .troca-de-img-1 {
+    display: none;
+  }
+  .troca-de-img-2 {
+    display: block;
+  }
+  .azul {
+    background-color: var(--cor-0);
+  }
+
+  .hamburger-desktop.open #azul1 {
+    background-color: var(--background);
+
+    transform: rotate(45deg) translate(3px, 8px);
+    left: 320px;
+  }
+
+  .hamburger-desktop.open #azul3 {
+    background-color: var(--background);
+  }
+
+  .hamburger #tes1,
+  .hamburger #tes2,
+  .hamburger #tes3 {
+    background-color: var(--background);
+  }
+
+}
 .titulo p {
   margin-bottom: 4px;
 }
 
+.t {
+  margin-top: 120px;
+}
 /* Background destacado em azul escuro */
 .socio-bg {
-  background: linear-gradient(to right, var(--background) 30%, #0c141b 0%);
+  display: grid;
+  background: linear-gradient(
+    to right,
+    var(--background) 30%,
+    var(--azul-escuro) 0%
+  );
+  position: relative;
 }
 
+.socio-bg::after {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(
+    to right,
+    var(--background) 30%,
+    rgba(21, 38, 64, 1) 0%
+  );
+}
 .nossa-equipe {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -21,6 +121,7 @@
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+  z-index: 1;
 }
 
 .nossa-equipe-imagem {
@@ -87,9 +188,28 @@
   gap: 1rem;
   place-self: center;
 }
+
+.hamburger.open #tes1 {
+  background-color: var(--background);
+  transform: rotate(45deg) translate(6px, 5px);
+}
+
+.hamburger.open #tes2 {
+  background-color: transparent;
+  display: none;
+}
+
+.hamburger.open #tes3 {
+  background-color: var(--background);
+
+  transform: rotate(-45deg) translate(6px, -5px);
+}
 @media (max-width: 800px) {
   .socio-bg {
-    background: #0c141b;
+    background: var(--azul-escuro);
+  }
+  .socio-bg::after {
+    display: none;
   }
   .nossa-equipe {
     grid-template-columns: 1fr;
