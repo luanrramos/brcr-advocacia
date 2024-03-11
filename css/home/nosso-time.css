@@ -47,8 +47,7 @@
   width: 100%;
   position: absolute;
   background-color: rgba(12, 20, 27, 0.8);
-  background-color: var(--azul-escuro);
-
+  background-color: rgba(21, 38, 64, 0.8);
 }
 
 .nosso-time-carrossel-img img {
