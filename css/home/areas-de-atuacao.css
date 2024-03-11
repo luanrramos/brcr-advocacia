@@ -1,6 +1,6 @@
 .areas-atuacao-bg {
   display: grid;
-  background: url("../../img/home/estatua.jpg") center no-repeat;
+  background: url("../../img/home/atuacao-bg.jpeg") center no-repeat;
   background-size: cover;
   padding: 100px 0;
   position: relative;
@@ -43,6 +43,10 @@
   position: relative;
   align-items: center;
   transition: 0.3s;
+}
+.areas-atuacao-bg > a {
+  place-self: center;
+  z-index: 2;
 }
 .areas-atuacao li:after {
   position: absolute;
@@ -100,7 +104,6 @@
   }
 
   .areas-atuacao-bg {
-    background: url("../../img/home/estatua-mobile.png") no-repeat;
     background-position: bottom;
     background-size: cover;
   }

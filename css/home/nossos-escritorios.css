@@ -30,10 +30,10 @@
   z-index: 1;
   position: relative;
 }
-
-#test {
-  z-index: 1;
+.nossos-escritorios img {
+  border-radius: 10px;
 }
+
 .nossos-escritorios {
   display: grid;
   grid-template-columns: 1fr 1fr;
