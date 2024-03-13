@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="preload" href="css/style.css" as="style">
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
 
 </head>
 
@@ -170,28 +172,28 @@
             <div class="details sete">
               <h2>Direito Tributário</h2>
               <p>Esteja preparado para a Reforma Tributária, o impacto nos negócios e no ranking de oportunidades tributárias.</p>
-              <a href="direito-da-familia.html">Ver Mais</a>
+              <a href="direito-tributario.html">Ver Mais</a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="details oito">
               <h2>Direito Marcário</h2>
               <p>Registre sua marca de forma rápida, fácil e segura. Solicite um orçamento agora mesmo com nossa equipe.</p>
-              <a href="direito-da-familia.html">Ver Mais</a>
+              <a href="direito-marcario.html">Ver Mais</a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="details nove">
               <h2>Direito Empresarial</h2>
               <p>Advocacia especializada para atender com excelência a sua empresa atuando desde o planejamento societário até consultoria empresarial.</p>
-              <a href="direito-da-familia.html">Ver Mais</a>
+              <a href="direito-empresarial.html">Ver Mais</a>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- <a class="link transicao cor-background z-index-2" href="areas-de-atuacao.html">SAIBA MAIS</a> -->
-    <a class="link transicao conheca cor-0 z-index-2" href="nosso-time.html">SAIBA MAIS</a>
+    <a class="link transicao conheca cor-0 z-index-2" href="areas-de-atuacao.html">SAIBA MAIS</a>
 
     </ul>
     </div>
@@ -254,27 +256,37 @@
 
   </section>
 
-  <article id="escritorios" class="nossos-escritorios-bg">
-    <div>
-      <div class="titulo container">
-        <p class="fadeInDown font-1-m cor-4">ATENDIMENTO EM TODO BRASIL</p>
-        <h2 class="cor-0 font-3-xxl">nossos escritórios<span class="cor-p5">.</span></h2>
-      </div>
+  <article class="nossos-escritorios-bg ">
+    <div class="titulo container ">
+      <p class="fadeInDown font-1-m cor-4">ATENDIMENTO EM TODO BRASIL</p>
+      <h2 class=" cor-0 font-3-xxl">nossos escritórios<span class="cor-p5">.</span></h2>
     </div>
     <div class="nossos-escritorios container">
-      <img width="800px" height="532px" src="img/home/escritorio.jpeg" alt="Imagem de nosso escritório">
-      <div id="nossos-escritorios-galeria">
-        <!-- Carrosel de fotos (FUTURO) -->
-        <!-- 
-        <input type="radio" name="img" id="img1">
-        <input type="radio" name="img" id="img2">
-        <input type="radio" name="img" id="img3"> 
-      -->
+
+      <div class="swiffy-slider">
+        <ul class="slider-container">
+          <li><img src="img/fotos-escritorio/foto1.jpeg"></li>
+          <li><img src="img/fotos-escritorio/foto2.jpeg"></li>
+          <li><img src="img/fotos-escritorio/foto3.jpeg"></li>
+          <li><img src="img/fotos-escritorio/foto4.jpeg"></li>
+        </ul>
+
+        <button type="button" class="slider-nav"></button>
+        <button type="button" class="slider-nav slider-nav-next"></button>
+
+        <div class="slider-indicators">
+          <button class="active"></button>
+          <button></button>
+          <button></button>
+          <button></button>
+        </div>
       </div>
-      <h3 class="cor-background font-1-xl">Serviço júridico exemplar presencialmente na Paraíba em Campina Grande e Esperança<span class="cor-p2">.</span></h3>
-      <p class="font-1-s cor-4">
-        Descubra nossos escritórios em Campina Grande e Esperança, onde a excelência jurídica se encontra com o atendimento personalizado. Estamos aqui para servir e oferecer soluções eficazes para suas necessidades legais.
-      </p>
+      <div class = "nossos-escritorios-titulo">
+        <h3 class="cor-background font-1-xl">Serviço júridico exemplar presencialmente na Paraíba em Campina Grande e Esperança<span class="cor-p2">.</span></h3>
+        <p class="font-1-s cor-4">
+          Descubra nossos escritórios em Campina Grande e Esperança, onde a excelência jurídica se encontra com o atendimento personalizado. Estamos aqui para servir e oferecer soluções eficazes para suas necessidades legais.
+        </p>
+      </div>
     </div>
   </article>
   <!-- <article id="artigos" class="nossos-artigos container detalhe-subtitulo">
@@ -364,7 +376,7 @@
   <footer>
     <div class="footer container">
       <div class="footer-logomarca">
-        <img width="671px" height="705px" src="img/logos/logo-header.png" alt="Logomarca BRCR">
+        <img width="671px" height="705px" src="img/logos/logo-brcr.svg" alt="logomarca BRCR">
         <p class="font-1-xs cor-azul-escuro">O sucesso é a dança harmoniosa entre a persistência e a paixão, transformando obstáculos em degraus para o triunfo.</p>
       </div>
       <div class="footer-conteudo">

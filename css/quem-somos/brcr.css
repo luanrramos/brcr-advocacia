@@ -4,9 +4,11 @@
   display: grid;
   grid-template-columns: 1fr 1.125fr;
   gap: 5rem;
-  align-items: start;
+  align-items: center;
 }
-
+.conteudo-quem-somos img {
+  border-radius: 10px;
+}
 .conteudo-quem-somos > div {
   display: grid;
   gap: 2rem;

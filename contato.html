@@ -13,6 +13,8 @@
   <title>Contato</title>
   <link rel="preload" href="css/style.css" as="style" />
   <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
 </head>
 
 <body>
@@ -217,7 +219,22 @@
     <h2 class="font-1-xxl cor-azul-escuro ">nossos escritórios<span class="cor-amarelo">.</span>
     </h2>
     <div class="escritorio-item">
-      <img src="./img/localizacao/CG-Mapa.png" alt="mapa marcando o endereço em Rua R. Lino Gomes da Silva, 215 Sala 101 - 1º Andar - São José, Campina Grande - PB" />
+      <div class="swiffy-slider">
+        <ul class="slider-container">
+          <li><img src="img/fotos-escritorio/foto2.jpeg"></li>
+          <li><img src="img/fotos-escritorio/foto4.jpeg"></li>
+          <li><img src="img/fotos-escritorio/foto6.jpeg"></li>
+        </ul>
+
+        <button type="button" class="slider-nav"></button>
+        <button type="button" class="slider-nav slider-nav-next"></button>
+
+        <div class="slider-indicators">
+          <button class="active"></button>
+          <button></button>
+          <button></button>
+        </div>
+      </div>
       <div class="escritorio-conteudo">
         <h3 class="font-1-xl">Campina Grande - PB</h3>
         <div class="escritorio-dados font-2-s cor-8">
@@ -232,7 +249,23 @@
       </div>
     </div>
     <div class="escritorio-item">
-      <img src="./img/localizacao/Esperanca-Mapa.png" alt="mapa marcando o endereço em Rua R. Lino Gomes da Silva, 215 Sala 101 - 1º Andar - São José, Campina Grande - PB" />
+
+      <div class="swiffy-slider">
+        <ul class="slider-container">
+          <li><img src="img/fotos-escritorio/foto1.jpeg"></li>
+          <li><img src="img/fotos-escritorio/foto3.jpeg"></li>
+          <li><img src="img/fotos-escritorio/foto5.jpeg"></li>
+        </ul>
+
+        <button type="button" class="slider-nav"></button>
+        <button type="button" class="slider-nav slider-nav-next"></button>
+
+        <div class="slider-indicators">
+          <button class="active"></button>
+          <button></button>
+          <button></button>
+        </div>
+      </div>
       <div class="escritorio-conteudo">
         <h3 class="font-1-xl">Esperança - PB</h3>
         <div class="escritorio-dados font-2-s cor-8">
@@ -251,7 +284,7 @@
   <footer>
     <div class="footer container">
       <div class="footer-logomarca">
-        <img width="671px" height="705px" src="img/logos/logo-header.png" alt="Logomarca BRCR">
+        <img width="671px" height="705px" src="img/logos/logo-brcr.svg" alt="logomarca BRCR">
         <p class="font-1-xs cor-azul-escuro">O sucesso é a dança harmoniosa entre a persistência e a paixão, transformando obstáculos em degraus para o triunfo.</p>
       </div>
       <div class="footer-conteudo">

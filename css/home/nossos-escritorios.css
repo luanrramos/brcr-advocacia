@@ -7,6 +7,7 @@
   background-size: cover;
   position: relative;
   /* margin-bottom: 60px; */
+  align-items: center;
 }
 .nossos-escritorios-bg::after {
   content: "";
@@ -17,23 +18,38 @@
   position: absolute;
   background-color: rgba(21, 38, 64, 0.95);
 }
-
 .nossos-escritorios-bg h2 {
-  z-index: 1;
+  z-index: 2;
   position: relative;
   max-width: 520px;
   /* margin: 0 auto; */
   margin-bottom: 100px;
 }
-
+.nossos-escritorios {
+  object-fit: cover;
+  object-position: center;
+}
+.nossos-escritorios img {
+  width: 800px;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
 .nossos-escritorios-bg p {
   z-index: 1;
   position: relative;
 }
+.nossos-escritorios-titulo {
+  display: grid;
+  gap: 3rem;
+}
 .nossos-escritorios img {
   border-radius: 10px;
 }
-
+/* <li><img src="img/fotos-escritorio/foto1.jpeg" style="max-width: 100%;height: auto;"></li>
+          <li><img src="img/fotos-escritorio/foto2.jpeg" style="max-width: 100%;height: auto;"></li>
+          <li><img src="img/fotos-escritorio/foto3.jpeg" style="max-width: 100%;height: auto;"></li>
+          <li><img src="img/fotos-escritorio/foto4.jpeg" style="max-width: 100%;height: auto;"></li> */
 .nossos-escritorios {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -42,8 +58,9 @@
   position: relative;
   z-index: 1;
 }
-.nossos-escritorios h3 {
-  align-self: end;
+
+.z-index-10 {
+  z-index: 10;
 }
 .nossos-escritorios img {
   grid-row: 1 / 3;
@@ -78,6 +95,12 @@
   }
   .nossos-escritorios-bg h2 {
     margin-bottom: 60px;
+  }
+  .nossos-escritorios img {
+    width: 800px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
   }
 }
 

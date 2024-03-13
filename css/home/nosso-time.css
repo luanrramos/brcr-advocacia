@@ -110,9 +110,7 @@
 }
 
 @media (max-width: 600px) {
-  .nosso-time {
-    /* padding: 0px 0; */
-  }
+
   .nosso-time-carrossel-img .link {
     color: var(--cor-0);
     padding: 8px 16px;
