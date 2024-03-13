@@ -46,10 +46,7 @@
 .nossos-escritorios img {
   border-radius: 10px;
 }
-/* <li><img src="img/fotos-escritorio/foto1.jpeg" style="max-width: 100%;height: auto;"></li>
-          <li><img src="img/fotos-escritorio/foto2.jpeg" style="max-width: 100%;height: auto;"></li>
-          <li><img src="img/fotos-escritorio/foto3.jpeg" style="max-width: 100%;height: auto;"></li>
-          <li><img src="img/fotos-escritorio/foto4.jpeg" style="max-width: 100%;height: auto;"></li> */
+
 .nossos-escritorios {
   display: grid;
   grid-template-columns: 1fr 1fr;
