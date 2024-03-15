@@ -233,10 +233,7 @@
 }
 
 @media (max-width: 800px) {
-  .titulo-bg {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
+
   .titulo p {
     font-size: 1rem;
     font-weight: 400;

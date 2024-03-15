@@ -1,7 +1,6 @@
 .quem-somos-bg {
-  background: url("../../img/quem-somos/toda-equipe.jpg") no-repeat;
+  background: url("../../img/quem-somos/4-socios.jpg") no-repeat;
   background-size: cover;
-  background-position: top;
   position: relative;
 }
 .header.active {
@@ -20,30 +19,35 @@
 
 .introducao-quem-somos {
   display: grid;
-  place-items: center;
-  text-align: center;
+  /* place-items: center; */
   position: relative;
+  justify-content: center;
 }
 .introducao-quem-somos h1 {
-  font-size: 80px;
+  font-size: 100px;
 }
 .introducao-quem-somos-titulo {
-  text-align: center;
   position: relative;
   z-index: 1;
   display: grid;
   place-items: center;
-  margin: 300px 200px;
+  margin: 400px 0px;
   justify-items: start;
   text-align: start;
 }
-
+@media (max-with: 1800px) {
+  .introducao-quem-somos-titulo {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
 @media (max-width: 1200px) {
   .introducao-quem-somos-titulo {
     z-index: 1;
-    justify-items: start;
     text-align: start;
-    margin: 120px 120px;
+    margin: 200px 0;
+    margin-right: 20px;
+    margin-left: 20px;
   }
   .introducao-quem-somos h1 {
     font-size: 64px;
@@ -51,7 +55,10 @@
 }
 @media (max-width: 800px) {
   .introducao-quem-somos-titulo {
-    margin: 50px 50px;
+    margin: 160px 20px;
+
+    place-content: center;
+    text-align: center;
   }
   .introducao-quem-somos h1 {
     font-size: 48px;
@@ -65,7 +72,17 @@
     font-size: 32px;
   }
   .introducao-quem-somos-titulo {
-    margin: 40px 0px;
+    text-align: start;
+    margin: 80px 20px;
+    margin-top: 120px;
+  }
+  .introducao-quem-somos h1 {
+    font-size: 36px;
+  }
+  .quem-somos-bg {
+    background: url("../../img/quem-somos/4-socios.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
   }
 }
-

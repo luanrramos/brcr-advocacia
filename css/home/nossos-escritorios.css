@@ -6,7 +6,6 @@
     center no-repeat;
   background-size: cover;
   position: relative;
-  /* margin-bottom: 60px; */
   align-items: center;
 }
 .nossos-escritorios-bg::after {
@@ -21,8 +20,6 @@
 .nossos-escritorios-bg h2 {
   z-index: 2;
   position: relative;
-  max-width: 520px;
-  /* margin: 0 auto; */
   margin-bottom: 100px;
 }
 .nossos-escritorios {

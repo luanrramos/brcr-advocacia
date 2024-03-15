@@ -5,14 +5,8 @@
   margin-bottom: 4rem;
   margin-top: 4rem;
 }
-.quemsomos h3 {
-  display: inline-block;
-  position: relative;
-  text-align: left;
-}
 
 .quemsomos-conteudo {
-  text-align: left;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   gap: 40px;
@@ -34,14 +28,12 @@
 .quemsomos-conteudo > p {
   grid-row: 2 /3;
   grid-column: 1;
-  /* text-align: justify; */
 }
 @media (max-width: 1200px) {
   .quemsomos {
     background: none;
   }
   .quemsomos-conteudo img {
-    /* margin-bottom: 3rem; */
     border-radius: 4px;
   }
 
@@ -92,6 +84,11 @@
   }
 
   .quemsomos-conteudo > p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .quemsomos-conteudo .titulo h2,
+  .quemsomos-conteudo .titulo p {
     padding-left: 20px;
     padding-right: 20px;
   }

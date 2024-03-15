@@ -170,7 +170,20 @@
   background-color: #0c141b;
   background-color: var(--azul-escuro);
 }
-
+.risco {
+  position: relative;
+}
+.risco::before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url("../../img/decoracoes/risco.svg") no-repeat center;
+  position: absolute;
+  top: 10px;
+  left: -90px;
+  /* z-index: -1; */
+}
 .container-termos {
   box-sizing: border-box;
   max-width: 1200px;
@@ -207,12 +220,20 @@
 .z-index-2 {
   z-index: 2;
 }
+@media (max-width: 1800px) {
+  .risco::before {
+    display: none;
+  }
+}
 @media (max-width: 1200px) {
   .botao img {
     max-width: 1.5rem;
   }
   .botao {
     padding: 8px 16px;
+  }
+  .risco::before {
+    display: none;
   }
 }
 @media (max-width: 800px) {
