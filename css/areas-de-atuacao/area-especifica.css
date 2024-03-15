@@ -39,11 +39,6 @@
   gap: 3rem;
 }
 
-.area-especifica-introducao-contato img {
-  width: 32px;
-  height: 32px;
-}
-
 .area-especifica-introducao-contato li a {
   display: grid;
   grid-template-columns: auto 1fr;
