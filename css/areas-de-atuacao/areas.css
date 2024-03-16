@@ -137,7 +137,9 @@
   transition: 0.3s;
   background: var(--cor-p5);
 }
-
+.area-especifica-introducao-contato img {
+  width: 32px;
+}
 .objetivo {
   margin-top: 3rem;
 }

@@ -42,7 +42,8 @@
 .area-especifica-introducao-contato li a {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 0.5rem;
+  gap: 1rem;
+  align-items: center;
 }
 
 .area-especifica-introducao-contato a span {
@@ -71,5 +72,8 @@
   .area-especifica-introducao h2::before {
     top: -70px;
     left: -55px;
+  }
+  .area-especifica-introducao-contato a p {
+    grid-column: 1 / 3;
   }
 }
