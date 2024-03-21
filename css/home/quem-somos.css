@@ -9,7 +9,7 @@
 .quemsomos-conteudo {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
-  gap: 40px;
+  gap: 2rem;
 }
 .quemsomos-conteudo > div {
   align-items: center;
