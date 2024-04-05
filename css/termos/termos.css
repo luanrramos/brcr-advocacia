@@ -1,10 +1,7 @@
 .perguntas {
   padding-top: 120px;
   padding-bottom: 120px;
-  
 }
-
-
 
 .perguntas h2 {
   margin-bottom: 60px;
@@ -26,7 +23,7 @@
   gap: 8px;
   cursor: pointer;
   border: none;
-  background: transparent;
+  background: none;
   width: 100%;
   text-align: left;
 }
@@ -53,12 +50,12 @@
   transform: rotate(180deg);
 }
 
-.js .perguntas dd {
+.perguntas dd {
   display: none;
 }
 
-.js .perguntas dd.ativa {
-  display: none;
+.perguntas dd.ativa {
+  display: block;
 }
 
 .perguntas dd {

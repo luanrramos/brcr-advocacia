@@ -95,9 +95,7 @@
 }
 
 @media (max-width: 350px) {
-  .quemsomos h2 {
-    text-decoration: underline;
-  }
+ 
   .quemsomos h2::before {
     display: none;
   }

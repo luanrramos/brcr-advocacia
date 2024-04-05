@@ -24,6 +24,13 @@ function animeScroll() {
     } else {
       elemento.classList.remove(animationClass);
     }
+
+    if (windowTop >= elemento.offsetTop) {
+      elemento.classList.remove(animationMotion);
+    } else {
+      elemento.classList.add(animationClass);
+    }
+
   });
 }
 

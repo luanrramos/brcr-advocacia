@@ -104,3 +104,26 @@
 .details:hover p {
   color: #152640;
 }
+
+@media (max-width: 400px) {
+  .details {
+    padding-bottom: 60px;
+  }
+  .details h2 {
+    font-size: 1rem;
+  }
+  .details p {
+    font-size: 0.8rem;
+    padding: 0;
+  }
+  .details a {
+    text-decoration: none;
+    text-transform: capitalize;
+    background: transparent;
+    color: transparent;
+    font-size: 10px;
+    padding: 0;
+    display: inline-block;
+    border: 1px solid transparent;
+  }
+}

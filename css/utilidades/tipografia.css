@@ -150,3 +150,14 @@
     font-size: 1.5rem;
   }
 }
+
+@media (max-width: 450px) {
+  .font-3-xxl {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 350px) {
+  .font-3-xxl {
+    font-size: 2rem;
+  }
+}
