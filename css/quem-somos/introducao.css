@@ -24,6 +24,7 @@
   justify-content: center;
 }
 .introducao-quem-somos h1 {
+  text-align: center;
   font-size: 100px;
 }
 .introducao-quem-somos-titulo {
@@ -34,6 +35,7 @@
   margin: 400px 0px;
   justify-items: start;
   text-align: start;
+  padding: 0 48px;
 }
 @media (max-with: 1800px) {
   .introducao-quem-somos-titulo {
@@ -84,5 +86,11 @@
     background-size: cover;
     position: relative;
     background-position: center;
+  }
+  .introducao-quem-somos h1 {
+    text-align: start;
+  }
+  .introducao-quem-somos-titulo {
+    padding: 0 0.5rem;
   }
 }

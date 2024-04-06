@@ -143,9 +143,14 @@
     position: relative;
     background-position: left right;
   }
+  .contato-formulario {
+    background: var(--cor-1);
+    padding: 20px;
+    z-index: 1;
+  }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .contato-informacao {
     padding: 0 20px;
   }
@@ -156,5 +161,11 @@
     margin-top: 0px;
     font-size: 12px;
     margin-bottom: 20px;
+  }
+  .contato-informacao h1 {
+    margin-top: 0.5rem;
+  }
+  .contato-formulario {
+    padding: 0px;
   }
 }
