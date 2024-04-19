@@ -52,9 +52,6 @@
   border-radius: 4px;
 }
 
-.inativo {
-  display: none;
-}
 #inativo {
   display: none;
 }
@@ -219,12 +216,31 @@
 .z-index-2 {
   z-index: 2;
 }
+
+.outras-areas-inativo {
+  display: none;
+}
+.inativo {
+  display: none;
+}
+
 @media (max-width: 1800px) {
   .risco::before {
     display: none;
   }
 }
 @media (max-width: 1200px) {
+  .areas-inativo {
+    display: none;
+  }
+
+  .areas-inativo {
+    display: none;
+  }
+  .outras-areas-inativo {
+    display: grid;
+    width: 100%;
+  }
   .botao img {
     max-width: 1.5rem;
   }

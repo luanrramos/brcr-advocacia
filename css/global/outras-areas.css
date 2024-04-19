@@ -2,7 +2,7 @@
   margin-top: 120px;
   margin-bottom: 80px;
   position: relative;
-/* overflow-x: auto; */
+  /* overflow-x: auto; */
 }
 
 .outras-areas h2 {
@@ -58,13 +58,27 @@
   position: absolute;
   background: rgba(21, 38, 64, 0.7);
 }
+.outras-areas-conteudo.bg-yellow div::after {
+  border-radius: 6px;
+
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+}
+.outras-areas-conteudo.bg-yellow span {
+  color: var(--cor-1);
+}
 .outras-areas-conteudo div > span {
   z-index: 1;
   position: absolute;
   top: 80%;
-  left: 30%;
+  display: block;
+  left: 35%;
   transform: translate(-50%, -50%);
-  align-self: center;
   color: var(--background);
 }
 .outras-areas-conteudo a > span {
