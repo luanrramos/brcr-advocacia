@@ -4,8 +4,6 @@
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding-top: 10px;
-  padding-bottom: 10px;
   z-index: 2;
   position: fixed;
 }
@@ -16,8 +14,6 @@
   height: 100px;
 }
 
-
-
 .container.active {
   background: var(--azul-escuro);
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
@@ -26,7 +22,7 @@
 }
 
 .header img {
-  max-width: 200px;
+  max-width: 160px;
   border-radius: 0px;
 }
 

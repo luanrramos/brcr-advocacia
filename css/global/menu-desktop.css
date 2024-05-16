@@ -2,7 +2,7 @@
   position: fixed;
   left: -300px;
   width: 0px;
-  top: 136px;
+  top: 116px;
   left: 200px;
   height: 430px;
   border-radius: 5px;
@@ -14,9 +14,9 @@
 .navigation-desktop.active {
   width: 340px;
   right: 0;
-  top: 136px;
+  top: 108px;
   left: 200px;
-  background-color: var(--azul-escuro);
+  background-color: rgba(21, 38, 64, 0.85);
 }
 .navigation-desktop nav {
   z-index: 3;
@@ -64,17 +64,17 @@
   left: 300px;
 }
 #bar-desktop1 {
-  top: 67px;
+  top: 47px;
   left: 316px;
 }
 
 #bar-desktop2 {
-  top: 75px;
+  top: 55px;
   left: 316px;
 }
 
 #bar-desktop3 {
-  top: 83px;
+  top: 63px;
   left: 316px;
 }
 

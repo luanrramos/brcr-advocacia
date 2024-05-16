@@ -73,3 +73,9 @@
     margin: 90px 0;
   }
 }
+
+@media (max-width: 600px) {
+  .escritorio {
+    margin: 0;
+  }
+}
