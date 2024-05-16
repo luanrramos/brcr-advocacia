@@ -13,7 +13,7 @@ A BRCR é uma sociedade de Advogados que soluciona demandas trabalhistas, cívei
 - ✅ Acessibilidade
 - ✅ SEO
 - ✅ Controle de versão
-- ✅ Perfomance
+- ✅ Performance
 - ✅ Trabalho em Equipe
 - ✅ HTML semântico
 
