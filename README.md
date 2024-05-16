@@ -9,13 +9,13 @@ A BRCR é uma sociedade de Advogados que soluciona demandas trabalhistas, cívei
 ## ⚙️ Conceitos aplicados
 
 - ✅ Design Responsivo
-- ☑️ Experiência do usuário (UX)
+- ✅ Experiência do usuário (UX)
 - ✅ Acessibilidade
-- ☑️ SEO
+- ✅ SEO
 - ✅ Controle de versão
-- ☑️ Perfomance
+- ✅ Perfomance
 - ✅ Trabalho em Equipe
-- ☑️ HTML semântico
+- ✅ HTML semântico
 
 ## 🧩 Tecnologias Utilizadas
 
