@@ -28,6 +28,12 @@ A BRCR é uma sociedade de Advogados que soluciona demandas trabalhistas, cívei
   <img width="24" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
   <img width="24" />
+  <img src="https://user-images.githubusercontent.com/25181517/189715289-df3ee512-6eca-463f-a0f4-c10d94a06b2f.png" height="40" alt="Figma logo"  />
+ <img width="24" />
+  <img src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" height="40" alt="git logo"  />
+ <img width="24" />
+  <img src="https://user-images.githubusercontent.com/25181517/192108374-8da61ba1-99ec-41d7-80b8-fb2f7c0a4948.png" height="40" alt="github logo"  />
+ 
 </div>
 
 ## ⌛ Status do projeto
